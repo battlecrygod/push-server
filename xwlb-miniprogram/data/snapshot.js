@@ -14,70 +14,80 @@ module.exports = [
         "title": "【新思想引领新征程】绘就幸福“夕阳红” 持续增进民生福祉",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEobgGolEpvCNBKbF6XWMt261018.shtml"
       },
       {
         "n": 2,
         "title": "李强同乌兹别克斯坦总理会谈",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEqOabIYpmZRQUNaDubH13261018.shtml"
       },
       {
         "n": 3,
         "title": "李强会见乌兹别克斯坦总统",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEIswMFtT0ODGVWFJ2DDVb261018.shtml"
       },
       {
         "n": 4,
         "title": "李强赴杜尚别对塔吉克斯坦进行正式访问并出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDE8LNLYwylrdsIYbWq9HfK261018.shtml"
       },
       {
         "n": 5,
         "title": "【赓续长征精神 奋进复兴征程】甘肃：长征足迹印沃土 红色陇原谱新篇",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDERaoJOMVwYJvxLYiv0JpK261018.shtml"
       },
       {
         "n": 6,
         "title": "我国已开通104项全国性跨地区社保服务",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEqH8f98aqHshZVFJxXebZ261018.shtml"
       },
       {
         "n": 7,
         "title": "城镇供热“温暖工程”三年行动启动",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEpkl3MRi7hWxQORndBrsU261018.shtml"
       },
       {
         "n": 8,
         "title": "全国铁路列车车次编排改革启动",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEEL8bY5GJ22acoLR8Fl48261018.shtml"
       },
       {
         "n": 9,
         "title": "我国首次太空培育两代水稻取得新突破",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDERB708P4Ib32okBxUll0U261018.shtml"
       },
       {
         "n": 10,
         "title": "第五届亚残运会今天开幕",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEwxUNrXyJaoItVt6SMgXu261018.shtml"
       },
       {
         "n": 11,
@@ -129,14 +139,16 @@ module.exports = [
             "n": 11,
             "title": "2026国际武当太极文化节开幕"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDE98EStlKIUv9k8SKTSDb0261018.shtml"
       },
       {
         "n": 12,
         "title": "也门胡塞武装称击落沙特武装直升机 沙特主导联军称拦截多架无人机",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEVrjLCYKuuFpRGUx4f8ko261018.shtml"
       },
       {
         "n": 13,
@@ -164,14 +176,16 @@ module.exports = [
             "n": 5,
             "title": "肯尼亚新增4例埃博拉确诊病例"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEweORQIJJp3bnMQz7QHN2261018.shtml"
       },
       {
         "n": 14,
         "title": "中国传统节日·重阳",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEsBhUXzTdG3NOaeE1Is0r261018.shtml"
       }
     ],
     "mains": [
@@ -180,84 +194,96 @@ module.exports = [
         "title": "【新思想引领新征程】绘就幸福“夕阳红” 持续增进民生福祉",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEobgGolEpvCNBKbF6XWMt261018.shtml"
       },
       {
         "n": 2,
         "title": "李强同乌兹别克斯坦总理会谈",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEqOabIYpmZRQUNaDubH13261018.shtml"
       },
       {
         "n": 3,
         "title": "李强会见乌兹别克斯坦总统",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEIswMFtT0ODGVWFJ2DDVb261018.shtml"
       },
       {
         "n": 4,
         "title": "李强赴杜尚别对塔吉克斯坦进行正式访问并出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDE8LNLYwylrdsIYbWq9HfK261018.shtml"
       },
       {
         "n": 5,
         "title": "【赓续长征精神 奋进复兴征程】甘肃：长征足迹印沃土 红色陇原谱新篇",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDERaoJOMVwYJvxLYiv0JpK261018.shtml"
       },
       {
         "n": 6,
         "title": "我国已开通104项全国性跨地区社保服务",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEqH8f98aqHshZVFJxXebZ261018.shtml"
       },
       {
         "n": 7,
         "title": "城镇供热“温暖工程”三年行动启动",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEpkl3MRi7hWxQORndBrsU261018.shtml"
       },
       {
         "n": 8,
         "title": "全国铁路列车车次编排改革启动",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEEL8bY5GJ22acoLR8Fl48261018.shtml"
       },
       {
         "n": 9,
         "title": "我国首次太空培育两代水稻取得新突破",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDERB708P4Ib32okBxUll0U261018.shtml"
       },
       {
         "n": 10,
         "title": "第五届亚残运会今天开幕",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEwxUNrXyJaoItVt6SMgXu261018.shtml"
       },
       {
         "n": 12,
         "title": "也门胡塞武装称击落沙特武装直升机 沙特主导联军称拦截多架无人机",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEVrjLCYKuuFpRGUx4f8ko261018.shtml"
       },
       {
         "n": 14,
         "title": "中国传统节日·重阳",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEsBhUXzTdG3NOaeE1Is0r261018.shtml"
       }
     ],
     "flashes": [
@@ -311,7 +337,8 @@ module.exports = [
             "n": 11,
             "title": "2026国际武当太极文化节开幕"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDE98EStlKIUv9k8SKTSDb0261018.shtml"
       },
       {
         "n": 13,
@@ -339,7 +366,8 @@ module.exports = [
             "n": 5,
             "title": "肯尼亚新增4例埃博拉确诊病例"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEweORQIJJp3bnMQz7QHN2261018.shtml"
       }
     ],
     "pointCount": 30,
@@ -357,56 +385,64 @@ module.exports = [
         "title": "厚植绿色根基 因地制宜推动高质量发展——习近平总书记在内蒙古乌兰察布考察时的重要讲话引发广大干部群众热烈反响",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEAxMm44lpl5Ss89mHAtZ8261017.shtml"
       },
       {
         "n": 2,
         "title": "李强出席2026世界传统医药大会开幕式并致辞",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEoKhumS8L0fctwVzyXxEi261017.shtml"
       },
       {
         "n": 3,
         "title": "李强抵达塔什干开始对乌兹别克斯坦进行正式访问",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDET7H3Z91AxKXSmw27Dq1v261017.shtml"
       },
       {
         "n": 4,
         "title": "王沪宁在四川调研",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEO6Y77KZbHupBGHUZHp8r261017.shtml"
       },
       {
         "n": 5,
         "title": "前八个月我国服务贸易保持较快增长",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDETsWbZLvoClpiy2UN4bx0261017.shtml"
       },
       {
         "n": 6,
         "title": "广交会：人工智能新品为外贸增长注入新动能",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEzGZNR9T3gxrDQXYkZb5w261017.shtml"
       },
       {
         "n": 7,
         "title": "各地优化服务 保障群众温暖过冬",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDE4L43s1l4jpkvepOLI3CH261017.shtml"
       },
       {
         "n": 8,
         "title": "【文化中国行·校馆弦歌】从征途课堂马背书香到新时代的长征路",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEvK7oNSLMo6WQ7uAFe3gY261017.shtml"
       },
       {
         "n": 9,
@@ -434,21 +470,24 @@ module.exports = [
             "n": 5,
             "title": "东北华北等地出现大范围强降雨"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEXKS8iMmcLGvizCyqw02F261017.shtml"
       },
       {
         "n": 10,
         "title": "日本人士表示日本应正视历史 反省战争罪行",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEMcOeMlbCqL12cC5FORbB261017.shtml"
       },
       {
         "n": 11,
         "title": "也门政府称亚丁机场遭袭 胡塞武装称打击沙特军事目标",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEDc8M5OSEcPP9yr3a7umA261017.shtml"
       },
       {
         "n": 12,
@@ -468,7 +507,8 @@ module.exports = [
             "n": 3,
             "title": "伦敦布伦特原油期价再次触及110美元"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEiTn9CVibMgXpqdTkVhaq261017.shtml"
       }
     ],
     "mains": [
@@ -477,70 +517,80 @@ module.exports = [
         "title": "厚植绿色根基 因地制宜推动高质量发展——习近平总书记在内蒙古乌兰察布考察时的重要讲话引发广大干部群众热烈反响",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEAxMm44lpl5Ss89mHAtZ8261017.shtml"
       },
       {
         "n": 2,
         "title": "李强出席2026世界传统医药大会开幕式并致辞",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEoKhumS8L0fctwVzyXxEi261017.shtml"
       },
       {
         "n": 3,
         "title": "李强抵达塔什干开始对乌兹别克斯坦进行正式访问",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDET7H3Z91AxKXSmw27Dq1v261017.shtml"
       },
       {
         "n": 4,
         "title": "王沪宁在四川调研",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEO6Y77KZbHupBGHUZHp8r261017.shtml"
       },
       {
         "n": 5,
         "title": "前八个月我国服务贸易保持较快增长",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDETsWbZLvoClpiy2UN4bx0261017.shtml"
       },
       {
         "n": 6,
         "title": "广交会：人工智能新品为外贸增长注入新动能",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEzGZNR9T3gxrDQXYkZb5w261017.shtml"
       },
       {
         "n": 7,
         "title": "各地优化服务 保障群众温暖过冬",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDE4L43s1l4jpkvepOLI3CH261017.shtml"
       },
       {
         "n": 8,
         "title": "【文化中国行·校馆弦歌】从征途课堂马背书香到新时代的长征路",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEvK7oNSLMo6WQ7uAFe3gY261017.shtml"
       },
       {
         "n": 10,
         "title": "日本人士表示日本应正视历史 反省战争罪行",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEMcOeMlbCqL12cC5FORbB261017.shtml"
       },
       {
         "n": 11,
         "title": "也门政府称亚丁机场遭袭 胡塞武装称打击沙特军事目标",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEDc8M5OSEcPP9yr3a7umA261017.shtml"
       }
     ],
     "flashes": [
@@ -570,7 +620,8 @@ module.exports = [
             "n": 5,
             "title": "东北华北等地出现大范围强降雨"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEXKS8iMmcLGvizCyqw02F261017.shtml"
       },
       {
         "n": 12,
@@ -590,7 +641,8 @@ module.exports = [
             "n": 3,
             "title": "伦敦布伦特原油期价再次触及110美元"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/17/VIDEiTn9CVibMgXpqdTkVhaq261017.shtml"
       }
     ],
     "pointCount": 20,
@@ -608,84 +660,96 @@ module.exports = [
         "title": "习近平在内蒙古乌兰察布考察时强调 统筹高质量发展和高水平保护 坚定不移走生态优先绿色发展之路",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEsKvwpWKlXkHJAR5LPPJ9261016.shtml"
       },
       {
         "n": 2,
         "title": "央视快评：坚定不移走生态优先绿色发展之路",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDERcC5WlEmbx6dHGpwW9IW261016.shtml"
       },
       {
         "n": 3,
         "title": "《求是》杂志发表习近平总书记重要文章《以更高标准、更实举措推进全面从严治党》",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEImir9vpeBQtHDqjfs5kY261016.shtml"
       },
       {
         "n": 4,
         "title": "习近平致信祝贺湖南大学建校100周年",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEm7XcpyZs2KzWrFdxjZgz261016.shtml"
       },
       {
         "n": 5,
         "title": "李强主持召开国务院常务会议",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEm4gTaJbsfKXfO7GHMkE6261016.shtml"
       },
       {
         "n": 6,
         "title": "丁薛祥出席2026年世界职业技术教育发展大会开幕式并会见与会外国政要",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDENigm5JlWTLGS6gbo6U5S261016.shtml"
       },
       {
         "n": 7,
         "title": "【赓续长征精神 奋进复兴征程】青海：雪域传薪火 绿色启新程",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDETbqpEd5lsfSeDBTeOoFM261016.shtml"
       },
       {
         "n": 8,
         "title": "我国进一步规范养老服务价格",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEAcg9fxa2Md9vt7VOp8hb261016.shtml"
       },
       {
         "n": 9,
         "title": "第140届广交会：以前沿创新展品对接全球供需",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEGCQpRywf0rOkH1cloA6F261016.shtml"
       },
       {
         "n": 10,
         "title": "4100多家境外企业参展第九届进博会",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEXH0BZNig5K2KByGTY02r261016.shtml"
       },
       {
         "n": 11,
         "title": "我国智能粮仓建设取得显著成效",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDE7yrTgBfRR3IxSNsdTsex261016.shtml"
       },
       {
         "n": 12,
         "title": "国务院新闻办举行“新征程上的奋斗者”中外记者见面会",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEFE0JuJTRgtw3BzixY13V261016.shtml"
       },
       {
         "n": 13,
@@ -705,21 +769,24 @@ module.exports = [
             "n": 3,
             "title": "《高端访谈》今晚播出对博茨瓦纳总统博科的专访"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEtqP7ue2QD5Uhu7doGFMY261016.shtml"
       },
       {
         "n": 14,
         "title": "也门政府称总统府遭袭 胡塞武装称袭击沙特指挥部 沙特主导的多国联军称本月利雅得机场遭袭20次 胡塞武装称相关行动属防御性质",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEi7vHzMYwDCssLftH6W4x261016.shtml"
       },
       {
         "n": 15,
         "title": "3位中国女性获联合国粮农组织“巾帼英雄”表彰",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDE1rteR5sx8prbiw4BvkXL261016.shtml"
       },
       {
         "n": 16,
@@ -739,7 +806,8 @@ module.exports = [
             "n": 3,
             "title": "国际计量大会决定取消闰秒"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEOcXAifQphv3hG9nvN01W261016.shtml"
       }
     ],
     "mains": [
@@ -748,98 +816,112 @@ module.exports = [
         "title": "习近平在内蒙古乌兰察布考察时强调 统筹高质量发展和高水平保护 坚定不移走生态优先绿色发展之路",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEsKvwpWKlXkHJAR5LPPJ9261016.shtml"
       },
       {
         "n": 2,
         "title": "央视快评：坚定不移走生态优先绿色发展之路",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDERcC5WlEmbx6dHGpwW9IW261016.shtml"
       },
       {
         "n": 3,
         "title": "《求是》杂志发表习近平总书记重要文章《以更高标准、更实举措推进全面从严治党》",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEImir9vpeBQtHDqjfs5kY261016.shtml"
       },
       {
         "n": 4,
         "title": "习近平致信祝贺湖南大学建校100周年",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEm7XcpyZs2KzWrFdxjZgz261016.shtml"
       },
       {
         "n": 5,
         "title": "李强主持召开国务院常务会议",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEm4gTaJbsfKXfO7GHMkE6261016.shtml"
       },
       {
         "n": 6,
         "title": "丁薛祥出席2026年世界职业技术教育发展大会开幕式并会见与会外国政要",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDENigm5JlWTLGS6gbo6U5S261016.shtml"
       },
       {
         "n": 7,
         "title": "【赓续长征精神 奋进复兴征程】青海：雪域传薪火 绿色启新程",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDETbqpEd5lsfSeDBTeOoFM261016.shtml"
       },
       {
         "n": 8,
         "title": "我国进一步规范养老服务价格",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEAcg9fxa2Md9vt7VOp8hb261016.shtml"
       },
       {
         "n": 9,
         "title": "第140届广交会：以前沿创新展品对接全球供需",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEGCQpRywf0rOkH1cloA6F261016.shtml"
       },
       {
         "n": 10,
         "title": "4100多家境外企业参展第九届进博会",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEXH0BZNig5K2KByGTY02r261016.shtml"
       },
       {
         "n": 11,
         "title": "我国智能粮仓建设取得显著成效",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDE7yrTgBfRR3IxSNsdTsex261016.shtml"
       },
       {
         "n": 12,
         "title": "国务院新闻办举行“新征程上的奋斗者”中外记者见面会",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEFE0JuJTRgtw3BzixY13V261016.shtml"
       },
       {
         "n": 14,
         "title": "也门政府称总统府遭袭 胡塞武装称袭击沙特指挥部 沙特主导的多国联军称本月利雅得机场遭袭20次 胡塞武装称相关行动属防御性质",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEi7vHzMYwDCssLftH6W4x261016.shtml"
       },
       {
         "n": 15,
         "title": "3位中国女性获联合国粮农组织“巾帼英雄”表彰",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDE1rteR5sx8prbiw4BvkXL261016.shtml"
       }
     ],
     "flashes": [
@@ -861,7 +943,8 @@ module.exports = [
             "n": 3,
             "title": "《高端访谈》今晚播出对博茨瓦纳总统博科的专访"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEtqP7ue2QD5Uhu7doGFMY261016.shtml"
       },
       {
         "n": 16,
@@ -881,7 +964,8 @@ module.exports = [
             "n": 3,
             "title": "国际计量大会决定取消闰秒"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/16/VIDEOcXAifQphv3hG9nvN01W261016.shtml"
       }
     ],
     "pointCount": 22,
@@ -899,70 +983,80 @@ module.exports = [
         "title": "建成均衡普惠、优质高效的健康中国——习近平总书记重要讲话激励广大卫生与健康工作者履职尽责、担当作为",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEh2Xe6XNKd2eG5gPCrebx261015.shtml"
       },
       {
         "n": 2,
         "title": "李强在中朝新鸭绿江大桥开通仪式上发表视频致辞",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEiNvxErE7YA9AtYBjENM5261015.shtml"
       },
       {
         "n": 3,
         "title": "李强会见博茨瓦纳总统",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDECEZAphOTMkFCe1z0SN7g261015.shtml"
       },
       {
         "n": 4,
         "title": "李强举行仪式欢迎多哥部长会议主席访华",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDERQtoZWkWd7jinyVkcZkc261015.shtml"
       },
       {
         "n": 5,
         "title": "李强同多哥部长会议主席会谈",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEbLwbINI0KcHX7yLVtarH261015.shtml"
       },
       {
         "n": 6,
         "title": "李强将访问乌兹别克斯坦、塔吉克斯坦并出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议、赴俄罗斯举行中俄总理第三十一次定期会晤",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEplgBb2ae7n4O2T7kO54q261015.shtml"
       },
       {
         "n": 7,
         "title": "以强有力监督推动解决群众急难愁盼问题",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDE8XAcAm3qDfWe40NDVhhi261015.shtml"
       },
       {
         "n": 8,
         "title": "【赓续长征精神 奋进复兴征程】薪火相传向未来 治蜀兴川谱新篇",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEObimS1ltoBhdEThXqg1i261015.shtml"
       },
       {
         "n": 9,
         "title": "【在希望的田野上】全国秋粮收获进入高峰期 进度过六成",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEWPvrUZ4XGIpfQ2fKpxja261015.shtml"
       },
       {
         "n": 10,
         "title": "我国首批国家公园建设成效显著",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDENStPmW7hV5diZ8Dph36l261015.shtml"
       },
       {
         "n": 11,
@@ -1014,21 +1108,24 @@ module.exports = [
             "n": 11,
             "title": "电视纪录片《伟大远征》今晚播出"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDE0CaWltJrlJ6ux9f632es261015.shtml"
       },
       {
         "n": 12,
         "title": "也门胡塞武装称再次袭击沙特首都机场 沙特称拦截胡塞武装弹道导弹",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDELwkPB66F0wvQIOOtTJWW261015.shtml"
       },
       {
         "n": 13,
         "title": "霍尔木兹海峡水域本月频发船只遇袭等事件",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEyJHNiRfNAuRpotAZpmeK261015.shtml"
       },
       {
         "n": 14,
@@ -1052,7 +1149,8 @@ module.exports = [
             "n": 4,
             "title": "内阁改组近一月 日本农相因丑闻辞职"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEg15wTOOrYcAIe7RyC6p3261015.shtml"
       }
     ],
     "mains": [
@@ -1061,84 +1159,96 @@ module.exports = [
         "title": "建成均衡普惠、优质高效的健康中国——习近平总书记重要讲话激励广大卫生与健康工作者履职尽责、担当作为",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEh2Xe6XNKd2eG5gPCrebx261015.shtml"
       },
       {
         "n": 2,
         "title": "李强在中朝新鸭绿江大桥开通仪式上发表视频致辞",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEiNvxErE7YA9AtYBjENM5261015.shtml"
       },
       {
         "n": 3,
         "title": "李强会见博茨瓦纳总统",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDECEZAphOTMkFCe1z0SN7g261015.shtml"
       },
       {
         "n": 4,
         "title": "李强举行仪式欢迎多哥部长会议主席访华",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDERQtoZWkWd7jinyVkcZkc261015.shtml"
       },
       {
         "n": 5,
         "title": "李强同多哥部长会议主席会谈",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEbLwbINI0KcHX7yLVtarH261015.shtml"
       },
       {
         "n": 6,
         "title": "李强将访问乌兹别克斯坦、塔吉克斯坦并出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议、赴俄罗斯举行中俄总理第三十一次定期会晤",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEplgBb2ae7n4O2T7kO54q261015.shtml"
       },
       {
         "n": 7,
         "title": "以强有力监督推动解决群众急难愁盼问题",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDE8XAcAm3qDfWe40NDVhhi261015.shtml"
       },
       {
         "n": 8,
         "title": "【赓续长征精神 奋进复兴征程】薪火相传向未来 治蜀兴川谱新篇",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEObimS1ltoBhdEThXqg1i261015.shtml"
       },
       {
         "n": 9,
         "title": "【在希望的田野上】全国秋粮收获进入高峰期 进度过六成",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEWPvrUZ4XGIpfQ2fKpxja261015.shtml"
       },
       {
         "n": 10,
         "title": "我国首批国家公园建设成效显著",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDENStPmW7hV5diZ8Dph36l261015.shtml"
       },
       {
         "n": 12,
         "title": "也门胡塞武装称再次袭击沙特首都机场 沙特称拦截胡塞武装弹道导弹",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDELwkPB66F0wvQIOOtTJWW261015.shtml"
       },
       {
         "n": 13,
         "title": "霍尔木兹海峡水域本月频发船只遇袭等事件",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEyJHNiRfNAuRpotAZpmeK261015.shtml"
       }
     ],
     "flashes": [
@@ -1192,7 +1302,8 @@ module.exports = [
             "n": 11,
             "title": "电视纪录片《伟大远征》今晚播出"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDE0CaWltJrlJ6ux9f632es261015.shtml"
       },
       {
         "n": 14,
@@ -1216,7 +1327,8 @@ module.exports = [
             "n": 4,
             "title": "内阁改组近一月 日本农相因丑闻辞职"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/15/VIDEg15wTOOrYcAIe7RyC6p3261015.shtml"
       }
     ],
     "pointCount": 29,
@@ -1234,84 +1346,96 @@ module.exports = [
         "title": "习近平向第140届中国进出口商品交易会致贺信",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDExq6xFbWuzkEl2SPQ51Ni261014.shtml"
       },
       {
         "n": 2,
         "title": "央视快评：为世界发展繁荣持续注入新动力",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDECrGVxBP5pjG2NXANZsoy261014.shtml"
       },
       {
         "n": 3,
         "title": "不断提高人民健康水平 确保健康中国建设取得决定性进展——习近平总书记在全国卫生与健康大会上的重要讲话引发热烈反响",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEfUSBFDXB8jdybBXCR7lV261014.shtml"
       },
       {
         "n": 4,
         "title": "李强出席第140届中国进出口商品交易会开幕式并发表主旨演讲",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEBvJrpn4430p6YBXTDNkN261014.shtml"
       },
       {
         "n": 5,
         "title": "李强出席“广交世界70年”座谈会",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEOMEJ9yBkH3OF3yOdZmz6261014.shtml"
       },
       {
         "n": 6,
         "title": "赵乐际集体会见出席2026年国际议员友好交流论坛的各国代表",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEKnwoQqSfk67fgqi4NDIY261014.shtml"
       },
       {
         "n": 7,
         "title": "丁薛祥会见清华大学经济管理学院顾问委员会委员代表",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDE7W23chAiDdo1bpMQOK1N261014.shtml"
       },
       {
         "n": 8,
         "title": "【赓续长征精神 奋进复兴征程】云南：以实干实绩走好新时代长征路",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEsF6rpWa9BdAvbqBIzyem261014.shtml"
       },
       {
         "n": 9,
         "title": "前三季度我国物价保持平稳运行",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDENkCPagrcNGpJ4YeAxTZO261014.shtml"
       },
       {
         "n": 10,
         "title": "前三季度我国货物贸易进出口39.94万亿元",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEVqP0oNI4TvNTmZK1w9Oj261014.shtml"
       },
       {
         "n": 11,
         "title": "9月末社会融资规模存量同比增长7.1%",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEdd57W2BkNZt8zYR2hb3G261014.shtml"
       },
       {
         "n": 12,
         "title": "第33届世界大学生冬季运动会各项筹备工作有序推进",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEhbwGnZPk2knyceQZix0v261014.shtml"
       },
       {
         "n": 13,
@@ -1347,21 +1471,24 @@ module.exports = [
             "n": 7,
             "title": "新疆多地胡杨林渐入最佳赏秋季"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDELt351JSMRY7uEJqvyXg1261014.shtml"
       },
       {
         "n": 14,
         "title": "俄逮捕一名涉嫌从事间谍活动的日本人 俄外交部称日方做法将令俄日关系进一步恶化",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEsh8dG6e6jqBt6Eshl7Uo261014.shtml"
       },
       {
         "n": 15,
         "title": "沙特主导的联军和也门胡塞武装相互打击对方能源设施",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEzvH8vgRM46htefrok38A261014.shtml"
       },
       {
         "n": 16,
@@ -1385,7 +1512,8 @@ module.exports = [
             "n": 4,
             "title": "欧洲天然气价格升至近四年最高水平"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEFD3xAlAeSgBklka5u3Zc261014.shtml"
       }
     ],
     "mains": [
@@ -1394,98 +1522,112 @@ module.exports = [
         "title": "习近平向第140届中国进出口商品交易会致贺信",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDExq6xFbWuzkEl2SPQ51Ni261014.shtml"
       },
       {
         "n": 2,
         "title": "央视快评：为世界发展繁荣持续注入新动力",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDECrGVxBP5pjG2NXANZsoy261014.shtml"
       },
       {
         "n": 3,
         "title": "不断提高人民健康水平 确保健康中国建设取得决定性进展——习近平总书记在全国卫生与健康大会上的重要讲话引发热烈反响",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEfUSBFDXB8jdybBXCR7lV261014.shtml"
       },
       {
         "n": 4,
         "title": "李强出席第140届中国进出口商品交易会开幕式并发表主旨演讲",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEBvJrpn4430p6YBXTDNkN261014.shtml"
       },
       {
         "n": 5,
         "title": "李强出席“广交世界70年”座谈会",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEOMEJ9yBkH3OF3yOdZmz6261014.shtml"
       },
       {
         "n": 6,
         "title": "赵乐际集体会见出席2026年国际议员友好交流论坛的各国代表",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEKnwoQqSfk67fgqi4NDIY261014.shtml"
       },
       {
         "n": 7,
         "title": "丁薛祥会见清华大学经济管理学院顾问委员会委员代表",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDE7W23chAiDdo1bpMQOK1N261014.shtml"
       },
       {
         "n": 8,
         "title": "【赓续长征精神 奋进复兴征程】云南：以实干实绩走好新时代长征路",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEsF6rpWa9BdAvbqBIzyem261014.shtml"
       },
       {
         "n": 9,
         "title": "前三季度我国物价保持平稳运行",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDENkCPagrcNGpJ4YeAxTZO261014.shtml"
       },
       {
         "n": 10,
         "title": "前三季度我国货物贸易进出口39.94万亿元",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEVqP0oNI4TvNTmZK1w9Oj261014.shtml"
       },
       {
         "n": 11,
         "title": "9月末社会融资规模存量同比增长7.1%",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEdd57W2BkNZt8zYR2hb3G261014.shtml"
       },
       {
         "n": 12,
         "title": "第33届世界大学生冬季运动会各项筹备工作有序推进",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEhbwGnZPk2knyceQZix0v261014.shtml"
       },
       {
         "n": 14,
         "title": "俄逮捕一名涉嫌从事间谍活动的日本人 俄外交部称日方做法将令俄日关系进一步恶化",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEsh8dG6e6jqBt6Eshl7Uo261014.shtml"
       },
       {
         "n": 15,
         "title": "沙特主导的联军和也门胡塞武装相互打击对方能源设施",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEzvH8vgRM46htefrok38A261014.shtml"
       }
     ],
     "flashes": [
@@ -1523,7 +1665,8 @@ module.exports = [
             "n": 7,
             "title": "新疆多地胡杨林渐入最佳赏秋季"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDELt351JSMRY7uEJqvyXg1261014.shtml"
       },
       {
         "n": 16,
@@ -1547,7 +1690,8 @@ module.exports = [
             "n": 4,
             "title": "欧洲天然气价格升至近四年最高水平"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/14/VIDEFD3xAlAeSgBklka5u3Zc261014.shtml"
       }
     ],
     "pointCount": 27,
@@ -1565,70 +1709,80 @@ module.exports = [
         "title": "习近平在全国卫生与健康大会上强调 坚定不移走中国特色卫生与健康发展道路 确保“十五五”时期健康中国建设取得决定性进展",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDEOt1yylqexhHI4aXxKajx261013.shtml"
       },
       {
         "n": 2,
         "title": "央视快评：确保健康中国建设取得决定性进展",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDE7OKAZPJsKzJfo9rqwyo0261013.shtml"
       },
       {
         "n": 3,
         "title": "习近平举行仪式欢迎博茨瓦纳总统访华",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDE5Nskw1BvWl8e8GwBLEQ4261013.shtml"
       },
       {
         "n": 4,
         "title": "习近平同博茨瓦纳总统会谈",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDEw3h5QgwyXhHzwSBRgQRj261013.shtml"
       },
       {
         "n": 5,
         "title": "习近平会见多哥部长会议主席",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDEb9viBP5myxMNPTBlRWEq261013.shtml"
       },
       {
         "n": 6,
         "title": "习近平致电祝贺马迪塞就任爱沙尼亚总统",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDEKVdZYxgIqk3uTmaxYnWH261013.shtml"
       },
       {
         "n": 7,
         "title": "赵乐际分别会见博茨瓦纳总统、多哥部长会议主席",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDECpMMG3FCalOvgGznbySM261013.shtml"
       },
       {
         "n": 8,
         "title": "第140届广交会推出超50项创新举措提升展会服务效能",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDEQGI28yyomuMXIumDYGgF261013.shtml"
       },
       {
         "n": 9,
         "title": "国务院新闻办举行“新征程上的奋斗者”中外记者见面会",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDE61Ck25vISeEIEYG4PzLh261013.shtml"
       },
       {
         "n": 10,
         "title": "缅北魏氏家族电诈案一审宣判",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDEXNsjlMDHRb9qjLbO5MYv261013.shtml"
       },
       {
         "n": 11,
@@ -1664,7 +1818,8 @@ module.exports = [
             "n": 7,
             "title": "法数百超市制冷系统遭网络攻击损失严重"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDECWvGrn8k7tLD7e7q6eJD261013.shtml"
       }
     ],
     "mains": [
@@ -1673,70 +1828,80 @@ module.exports = [
         "title": "习近平在全国卫生与健康大会上强调 坚定不移走中国特色卫生与健康发展道路 确保“十五五”时期健康中国建设取得决定性进展",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDEOt1yylqexhHI4aXxKajx261013.shtml"
       },
       {
         "n": 2,
         "title": "央视快评：确保健康中国建设取得决定性进展",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDE7OKAZPJsKzJfo9rqwyo0261013.shtml"
       },
       {
         "n": 3,
         "title": "习近平举行仪式欢迎博茨瓦纳总统访华",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDE5Nskw1BvWl8e8GwBLEQ4261013.shtml"
       },
       {
         "n": 4,
         "title": "习近平同博茨瓦纳总统会谈",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDEw3h5QgwyXhHzwSBRgQRj261013.shtml"
       },
       {
         "n": 5,
         "title": "习近平会见多哥部长会议主席",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDEb9viBP5myxMNPTBlRWEq261013.shtml"
       },
       {
         "n": 6,
         "title": "习近平致电祝贺马迪塞就任爱沙尼亚总统",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDEKVdZYxgIqk3uTmaxYnWH261013.shtml"
       },
       {
         "n": 7,
         "title": "赵乐际分别会见博茨瓦纳总统、多哥部长会议主席",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDECpMMG3FCalOvgGznbySM261013.shtml"
       },
       {
         "n": 8,
         "title": "第140届广交会推出超50项创新举措提升展会服务效能",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDEQGI28yyomuMXIumDYGgF261013.shtml"
       },
       {
         "n": 9,
         "title": "国务院新闻办举行“新征程上的奋斗者”中外记者见面会",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDE61Ck25vISeEIEYG4PzLh261013.shtml"
       },
       {
         "n": 10,
         "title": "缅北魏氏家族电诈案一审宣判",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDEXNsjlMDHRb9qjLbO5MYv261013.shtml"
       }
     ],
     "flashes": [
@@ -1774,7 +1939,8 @@ module.exports = [
             "n": 7,
             "title": "法数百超市制冷系统遭网络攻击损失严重"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDECWvGrn8k7tLD7e7q6eJD261013.shtml"
       }
     ],
     "pointCount": 18,
@@ -1792,70 +1958,80 @@ module.exports = [
         "title": "习近平同巴布亚新几内亚总督就中巴新建交50周年互致贺电 李强同巴新总理互致贺电",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEROcKQWN2RD5MYdgYrhaI261012.shtml"
       },
       {
         "n": 2,
         "title": "【新思想引领新征程】以人民为中心 加快建设健康中国",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEeRT2xnD6178GWYW4bIl2261012.shtml"
       },
       {
         "n": 3,
         "title": "李强会见越南国会主席",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDE0JtoYgYWQ1ARkQSovvfb261012.shtml"
       },
       {
         "n": 4,
         "title": "李强同新西兰总理通电话",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEBdhoblLhKUtl46OhhhLn261012.shtml"
       },
       {
         "n": 5,
         "title": "赵乐际同越南国会主席会谈并共同主持中越立法机构联合委员会第二次会议",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEg7nEWqZIc4RjffwNRXC4261012.shtml"
       },
       {
         "n": 6,
         "title": "王沪宁出席中国侨联成立70周年纪念大会",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDE3KnV2pmfUlilZK0p7VHl261012.shtml"
       },
       {
         "n": 7,
         "title": "【铸牢共同体 中华一家亲】内蒙古：同心共建北疆美好家园",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEnaidYBkDZeY0D92ukSNl261012.shtml"
       },
       {
         "n": 8,
         "title": "前三季度新能源汽车产销量实现较高增长",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEuvv8w7th2VOO4MUf68fW261012.shtml"
       },
       {
         "n": 9,
         "title": "我国服务业数智化改造加速落地",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEHDhoIJGMBPKl7DRW8LKR261012.shtml"
       },
       {
         "n": 10,
         "title": "2026中国网球公开赛落幕 多项数据创赛会纪录",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDElUIZCLU75MLinxsoAa9G261012.shtml"
       },
       {
         "n": 11,
@@ -1895,14 +2071,16 @@ module.exports = [
             "n": 8,
             "title": "世界葡萄与葡萄酒大会在宁夏银川开幕"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEvPsAmVbQkM1RW7wfxU6i261012.shtml"
       },
       {
         "n": 12,
         "title": "沙特利雅得机场再遭袭 也门胡塞武装称对沙特设施发动多轮打击",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDE2WbP1w3CIrLBLRxQnZ4s261012.shtml"
       },
       {
         "n": 13,
@@ -1922,7 +2100,8 @@ module.exports = [
             "n": 3,
             "title": "飓风“施蒙”在墨西哥西部多地引发灾情"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEtI0zx44zajMnddgs33fq261012.shtml"
       }
     ],
     "mains": [
@@ -1931,77 +2110,88 @@ module.exports = [
         "title": "习近平同巴布亚新几内亚总督就中巴新建交50周年互致贺电 李强同巴新总理互致贺电",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEROcKQWN2RD5MYdgYrhaI261012.shtml"
       },
       {
         "n": 2,
         "title": "【新思想引领新征程】以人民为中心 加快建设健康中国",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEeRT2xnD6178GWYW4bIl2261012.shtml"
       },
       {
         "n": 3,
         "title": "李强会见越南国会主席",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDE0JtoYgYWQ1ARkQSovvfb261012.shtml"
       },
       {
         "n": 4,
         "title": "李强同新西兰总理通电话",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEBdhoblLhKUtl46OhhhLn261012.shtml"
       },
       {
         "n": 5,
         "title": "赵乐际同越南国会主席会谈并共同主持中越立法机构联合委员会第二次会议",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEg7nEWqZIc4RjffwNRXC4261012.shtml"
       },
       {
         "n": 6,
         "title": "王沪宁出席中国侨联成立70周年纪念大会",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDE3KnV2pmfUlilZK0p7VHl261012.shtml"
       },
       {
         "n": 7,
         "title": "【铸牢共同体 中华一家亲】内蒙古：同心共建北疆美好家园",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEnaidYBkDZeY0D92ukSNl261012.shtml"
       },
       {
         "n": 8,
         "title": "前三季度新能源汽车产销量实现较高增长",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEuvv8w7th2VOO4MUf68fW261012.shtml"
       },
       {
         "n": 9,
         "title": "我国服务业数智化改造加速落地",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEHDhoIJGMBPKl7DRW8LKR261012.shtml"
       },
       {
         "n": 10,
         "title": "2026中国网球公开赛落幕 多项数据创赛会纪录",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDElUIZCLU75MLinxsoAa9G261012.shtml"
       },
       {
         "n": 12,
         "title": "沙特利雅得机场再遭袭 也门胡塞武装称对沙特设施发动多轮打击",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDE2WbP1w3CIrLBLRxQnZ4s261012.shtml"
       }
     ],
     "flashes": [
@@ -2043,7 +2233,8 @@ module.exports = [
             "n": 8,
             "title": "世界葡萄与葡萄酒大会在宁夏银川开幕"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEvPsAmVbQkM1RW7wfxU6i261012.shtml"
       },
       {
         "n": 13,
@@ -2063,7 +2254,8 @@ module.exports = [
             "n": 3,
             "title": "飓风“施蒙”在墨西哥西部多地引发灾情"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/12/VIDEtI0zx44zajMnddgs33fq261012.shtml"
       }
     ],
     "pointCount": 24,
@@ -2081,70 +2273,80 @@ module.exports = [
         "title": "【新思想引领新征程】守护绿水青山 共绘美丽中国新画卷",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEcW79ixxM8hXvgOcyglco261011.shtml"
       },
       {
         "n": 2,
         "title": "王沪宁会见越南国会主席",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDESU3LgYLPUVZt3wqe5uNf261011.shtml"
       },
       {
         "n": 3,
         "title": "中国物流业景气指数连续5个月扩张",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEziZ3yvSpsXUBbRjeF5f5261011.shtml"
       },
       {
         "n": 4,
         "title": "前三季度新开工重大水利工程数量超去年全年",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEVlRidY85GRr2U12wkmVK261011.shtml"
       },
       {
         "n": 5,
         "title": "我国氢能产业进入发展快车道",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEbJSUmUMCWwZxEzjpniGo261011.shtml"
       },
       {
         "n": 6,
         "title": "【文化中国行】无声的见证 不朽的信仰",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEHlPRBy9CtCSoCt93X7cn261011.shtml"
       },
       {
         "n": 7,
         "title": "新皇岗口岸落成 明日开通运行",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEkfeeA4chRo7ShkYxdJ5Q261011.shtml"
       },
       {
         "n": 8,
         "title": "第三次新疆综合科学考察成果发布",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEhFnwkzQv12UohyBLIW1I261011.shtml"
       },
       {
         "n": 9,
         "title": "【一线调研】一条老街的“精打细算”",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDEPQWl0opSQbwmTGEqmWGw261013.shtml"
       },
       {
         "n": 10,
         "title": "特色赏秋带动文旅消费",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEZz29PmcB798EcSylXmcZ261011.shtml"
       },
       {
         "n": 11,
@@ -2176,14 +2378,16 @@ module.exports = [
             "n": 6,
             "title": "“2026世界市长对话·洛阳”活动举行"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDE80Ktt3PXrLtiluCPaLRK261011.shtml"
       },
       {
         "n": 12,
         "title": "沙特利雅得机场遭袭致12人死309人伤 胡塞武装称也门萨那国际机场遭空袭",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDENQCNmRpkhpiMDtrocqPl261011.shtml"
       },
       {
         "n": 13,
@@ -2207,7 +2411,8 @@ module.exports = [
             "n": 4,
             "title": "飓风“伊萨亚斯”影响墨西哥湾油气生产"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEP0xBETIYEBfZeY8489NJ261011.shtml"
       }
     ],
     "mains": [
@@ -2216,77 +2421,88 @@ module.exports = [
         "title": "【新思想引领新征程】守护绿水青山 共绘美丽中国新画卷",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEcW79ixxM8hXvgOcyglco261011.shtml"
       },
       {
         "n": 2,
         "title": "王沪宁会见越南国会主席",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDESU3LgYLPUVZt3wqe5uNf261011.shtml"
       },
       {
         "n": 3,
         "title": "中国物流业景气指数连续5个月扩张",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEziZ3yvSpsXUBbRjeF5f5261011.shtml"
       },
       {
         "n": 4,
         "title": "前三季度新开工重大水利工程数量超去年全年",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEVlRidY85GRr2U12wkmVK261011.shtml"
       },
       {
         "n": 5,
         "title": "我国氢能产业进入发展快车道",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEbJSUmUMCWwZxEzjpniGo261011.shtml"
       },
       {
         "n": 6,
         "title": "【文化中国行】无声的见证 不朽的信仰",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEHlPRBy9CtCSoCt93X7cn261011.shtml"
       },
       {
         "n": 7,
         "title": "新皇岗口岸落成 明日开通运行",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEkfeeA4chRo7ShkYxdJ5Q261011.shtml"
       },
       {
         "n": 8,
         "title": "第三次新疆综合科学考察成果发布",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEhFnwkzQv12UohyBLIW1I261011.shtml"
       },
       {
         "n": 9,
         "title": "【一线调研】一条老街的“精打细算”",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/13/VIDEPQWl0opSQbwmTGEqmWGw261013.shtml"
       },
       {
         "n": 10,
         "title": "特色赏秋带动文旅消费",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEZz29PmcB798EcSylXmcZ261011.shtml"
       },
       {
         "n": 12,
         "title": "沙特利雅得机场遭袭致12人死309人伤 胡塞武装称也门萨那国际机场遭空袭",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDENQCNmRpkhpiMDtrocqPl261011.shtml"
       }
     ],
     "flashes": [
@@ -2320,7 +2536,8 @@ module.exports = [
             "n": 6,
             "title": "“2026世界市长对话·洛阳”活动举行"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDE80Ktt3PXrLtiluCPaLRK261011.shtml"
       },
       {
         "n": 13,
@@ -2344,7 +2561,8 @@ module.exports = [
             "n": 4,
             "title": "飓风“伊萨亚斯”影响墨西哥湾油气生产"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/11/VIDEP0xBETIYEBfZeY8489NJ261011.shtml"
       }
     ],
     "pointCount": 23,
@@ -2362,63 +2580,72 @@ module.exports = [
         "title": "【新思想引领新征程】从源头和底层破题 夯实科技强国根基",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEOCjVzZ9qWTl1Du6HSPr5261010.shtml"
       },
       {
         "n": 2,
         "title": "【赓续长征精神 奋进复兴征程】贵州：传承红色基因 谱写高质量发展新篇章",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDE6WqhCbALXJAn0gz81N7E261010.shtml"
       },
       {
         "n": 3,
         "title": "【“十五五”开好局起好步】实施就业优先战略 织密扎牢社会保障网",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEiKxXfgh4KDX3EOglyuwN261010.shtml"
       },
       {
         "n": 4,
         "title": "先行指标释放积极信号 经济回升向好态势持续巩固",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEzMeSfghPuF9s4oR1JRkU261010.shtml"
       },
       {
         "n": 5,
         "title": "【在希望的田野上】全国秋粮收获进度过半 秋冬种陆续展开",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEZzuhZzRGBCvSZyBVMKWT261010.shtml"
       },
       {
         "n": 6,
         "title": "国庆假期服务消费需求旺盛 商品消费增势良好",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEvagtHTVtswRLFsUQJhzO261010.shtml"
       },
       {
         "n": 7,
         "title": "我国候鸟种群数量稳步增长",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEZijcKMZpeRBmWuS0JVNO261010.shtml"
       },
       {
         "n": 8,
         "title": "国务院新闻办举行“新征程上的奋斗者”中外记者见面会",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEwDmt6zYiN2vohe2eCynm261010.shtml"
       },
       {
         "n": 9,
         "title": "第五届亚残运会中国体育代表团今天成立",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDESwyKNS6LLqgicqLtF2jm261010.shtml"
       },
       {
         "n": 10,
@@ -2466,21 +2693,24 @@ module.exports = [
             "n": 10,
             "title": "总台2027“品牌强国战略”共建行动暨总台国家品牌可信语料平台启动"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDELN7FIIambuNHSe6lj3uV261010.shtml"
       },
       {
         "n": 11,
         "title": "日本民间团体提交请愿书 反对政府扩军备武 国际人士：警惕日本突破战后体制 威胁地区及全球安全",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEBd0NNbCc4Spxb6exxvUd261010.shtml"
       },
       {
         "n": 12,
         "title": "俄将向美国和全球市场供油 美放松对俄柴油贸易制裁 乌总统称不设前提对俄放松制裁是明显的软弱",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEqknB6Nr1p16jJZHzng0l261010.shtml"
       },
       {
         "n": 13,
@@ -2508,7 +2738,8 @@ module.exports = [
             "n": 5,
             "title": "飓风在美佛州登陆 数十万用户断电"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDECStNNWlvjzXcaLQwRAK9261010.shtml"
       }
     ],
     "mains": [
@@ -2517,77 +2748,88 @@ module.exports = [
         "title": "【新思想引领新征程】从源头和底层破题 夯实科技强国根基",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEOCjVzZ9qWTl1Du6HSPr5261010.shtml"
       },
       {
         "n": 2,
         "title": "【赓续长征精神 奋进复兴征程】贵州：传承红色基因 谱写高质量发展新篇章",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDE6WqhCbALXJAn0gz81N7E261010.shtml"
       },
       {
         "n": 3,
         "title": "【“十五五”开好局起好步】实施就业优先战略 织密扎牢社会保障网",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEiKxXfgh4KDX3EOglyuwN261010.shtml"
       },
       {
         "n": 4,
         "title": "先行指标释放积极信号 经济回升向好态势持续巩固",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEzMeSfghPuF9s4oR1JRkU261010.shtml"
       },
       {
         "n": 5,
         "title": "【在希望的田野上】全国秋粮收获进度过半 秋冬种陆续展开",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEZzuhZzRGBCvSZyBVMKWT261010.shtml"
       },
       {
         "n": 6,
         "title": "国庆假期服务消费需求旺盛 商品消费增势良好",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEvagtHTVtswRLFsUQJhzO261010.shtml"
       },
       {
         "n": 7,
         "title": "我国候鸟种群数量稳步增长",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEZijcKMZpeRBmWuS0JVNO261010.shtml"
       },
       {
         "n": 8,
         "title": "国务院新闻办举行“新征程上的奋斗者”中外记者见面会",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEwDmt6zYiN2vohe2eCynm261010.shtml"
       },
       {
         "n": 9,
         "title": "第五届亚残运会中国体育代表团今天成立",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDESwyKNS6LLqgicqLtF2jm261010.shtml"
       },
       {
         "n": 11,
         "title": "日本民间团体提交请愿书 反对政府扩军备武 国际人士：警惕日本突破战后体制 威胁地区及全球安全",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEBd0NNbCc4Spxb6exxvUd261010.shtml"
       },
       {
         "n": 12,
         "title": "俄将向美国和全球市场供油 美放松对俄柴油贸易制裁 乌总统称不设前提对俄放松制裁是明显的软弱",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDEqknB6Nr1p16jJZHzng0l261010.shtml"
       }
     ],
     "flashes": [
@@ -2637,7 +2879,8 @@ module.exports = [
             "n": 10,
             "title": "总台2027“品牌强国战略”共建行动暨总台国家品牌可信语料平台启动"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDELN7FIIambuNHSe6lj3uV261010.shtml"
       },
       {
         "n": 13,
@@ -2665,7 +2908,8 @@ module.exports = [
             "n": 5,
             "title": "飓风在美佛州登陆 数十万用户断电"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/10/VIDECStNNWlvjzXcaLQwRAK9261010.shtml"
       }
     ],
     "pointCount": 28,
@@ -2683,63 +2927,72 @@ module.exports = [
         "title": "应习近平邀请 博茨瓦纳总统将访华",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEY2cyT6DU8zP47ZVpretz261009.shtml"
       },
       {
         "n": 2,
         "title": "【新思想引领新征程】因地制宜 推动县域经济高质量发展",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDE668JigATVzAJox3SIRsn261009.shtml"
       },
       {
         "n": 3,
         "title": "中共中央 国务院印发《关于发展新质生产力的意见》",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEfBOfBC0Au6gNHACiTqD8261009.shtml"
       },
       {
         "n": 4,
         "title": "学习《习近平文化文选》第一卷、第二卷座谈会在京召开",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEmhyNLgcd4fJiYE488sbm261009.shtml"
       },
       {
         "n": 5,
         "title": "【赓续长征精神 奋进复兴征程】巴渝大地传薪火 奋楫笃行谱新篇",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEajYIYV5K4ix7iQTxX8rg261009.shtml"
       },
       {
         "n": 6,
         "title": "财政部安排使用5500亿元地方政府债务结存限额",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEe2oJZ9O7PRjPH5mzVPwL261009.shtml"
       },
       {
         "n": 7,
         "title": "国庆假期旅游市场红火 国内出游达8.26亿人次",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEXngvfYY0PgExkR2IsHdG261009.shtml"
       },
       {
         "n": 8,
         "title": "我国年人均快递量超140件",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEnfgQtx0aNu5yWNjzt6oC261009.shtml"
       },
       {
         "n": 9,
         "title": "【新闻特写】“六张网”带来的新机遇",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDE21TzuHOo1vKIlWGyIx47261009.shtml"
       },
       {
         "n": 10,
@@ -2783,28 +3036,32 @@ module.exports = [
             "n": 9,
             "title": "电视剧《伟大的长征》今晚播出"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEhL50mIjmLiBRd5YxVVhp261009.shtml"
       },
       {
         "n": 11,
         "title": "中方就加强和振兴联大提出三点主张",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEVMt1ZWqmYfQlJ1ZC5f5A261009.shtml"
       },
       {
         "n": 12,
         "title": "中国代表：日本已成为威胁地区和平稳定的突出因素",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEvZoEycKxcZ4dLCRt29K2261009.shtml"
       },
       {
         "n": 13,
         "title": "沙特称利雅得机场遭袭造成人员死伤 媒体称也门胡塞武装控制区遭沙特空袭",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDE7jl0BOAPjUaPQLQlZhJ9261009.shtml"
       },
       {
         "n": 14,
@@ -2828,7 +3085,8 @@ module.exports = [
             "n": 4,
             "title": "东南亚烟霾加剧 马来西亚千所学校停课"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEPJGqJzd7Ab4bnZqlzPCL261009.shtml"
       }
     ],
     "mains": [
@@ -2837,84 +3095,96 @@ module.exports = [
         "title": "应习近平邀请 博茨瓦纳总统将访华",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEY2cyT6DU8zP47ZVpretz261009.shtml"
       },
       {
         "n": 2,
         "title": "【新思想引领新征程】因地制宜 推动县域经济高质量发展",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDE668JigATVzAJox3SIRsn261009.shtml"
       },
       {
         "n": 3,
         "title": "中共中央 国务院印发《关于发展新质生产力的意见》",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEfBOfBC0Au6gNHACiTqD8261009.shtml"
       },
       {
         "n": 4,
         "title": "学习《习近平文化文选》第一卷、第二卷座谈会在京召开",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEmhyNLgcd4fJiYE488sbm261009.shtml"
       },
       {
         "n": 5,
         "title": "【赓续长征精神 奋进复兴征程】巴渝大地传薪火 奋楫笃行谱新篇",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEajYIYV5K4ix7iQTxX8rg261009.shtml"
       },
       {
         "n": 6,
         "title": "财政部安排使用5500亿元地方政府债务结存限额",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEe2oJZ9O7PRjPH5mzVPwL261009.shtml"
       },
       {
         "n": 7,
         "title": "国庆假期旅游市场红火 国内出游达8.26亿人次",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEXngvfYY0PgExkR2IsHdG261009.shtml"
       },
       {
         "n": 8,
         "title": "我国年人均快递量超140件",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEnfgQtx0aNu5yWNjzt6oC261009.shtml"
       },
       {
         "n": 9,
         "title": "【新闻特写】“六张网”带来的新机遇",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDE21TzuHOo1vKIlWGyIx47261009.shtml"
       },
       {
         "n": 11,
         "title": "中方就加强和振兴联大提出三点主张",
         "type": "main",
         "region": "domestic",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEVMt1ZWqmYfQlJ1ZC5f5A261009.shtml"
       },
       {
         "n": 12,
         "title": "中国代表：日本已成为威胁地区和平稳定的突出因素",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEvZoEycKxcZ4dLCRt29K2261009.shtml"
       },
       {
         "n": 13,
         "title": "沙特称利雅得机场遭袭造成人员死伤 媒体称也门胡塞武装控制区遭沙特空袭",
         "type": "main",
         "region": "international",
-        "children": []
+        "children": [],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDE7jl0BOAPjUaPQLQlZhJ9261009.shtml"
       }
     ],
     "flashes": [
@@ -2960,7 +3230,8 @@ module.exports = [
             "n": 9,
             "title": "电视剧《伟大的长征》今晚播出"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEhL50mIjmLiBRd5YxVVhp261009.shtml"
       },
       {
         "n": 14,
@@ -2984,7 +3255,8 @@ module.exports = [
             "n": 4,
             "title": "东南亚烟霾加剧 马来西亚千所学校停课"
           }
-        ]
+        ],
+        "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEPJGqJzd7Ab4bnZqlzPCL261009.shtml"
       }
     ],
     "pointCount": 27,

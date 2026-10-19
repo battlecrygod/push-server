@@ -93,6 +93,15 @@ Page({
     wx.switchTab({ url: '/pages/archive/archive' });
   },
 
+  onOpenBrief(e) {
+    const ds = e.currentTarget.dataset;
+    const date = this.data.view && this.data.view.date;
+    if (!date) return;
+    wx.navigateTo({
+      url: `/pages/brief/brief?date=${date}&kind=${ds.kind}&idx=${ds.idx}`
+    });
+  },
+
   onCopyVideo() {
     const url = this.data.view && this.data.view.videoUrl;
     if (!url) return;

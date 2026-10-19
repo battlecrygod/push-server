@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/archive/archive",
     "pages/detail/detail",
+    "pages/brief/brief",
     "pages/settings/settings"
   ],
   "window": {

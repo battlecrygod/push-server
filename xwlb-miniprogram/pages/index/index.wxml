@@ -28,12 +28,20 @@
     </view>
 
     <view class="brief-list">
-      <view class="brief-item" wx:for="{{view.mains}}" wx:key="key">
+      <view
+        class="brief-item brief-item--tap"
+        wx:for="{{view.mains}}"
+        wx:key="key"
+        data-kind="main"
+        data-idx="{{index}}"
+        bindtap="onOpenBrief"
+      >
         <view class="brief-item__index">{{item.index}}</view>
         <view class="brief-item__body">
           <view class="brief-item__title">{{item.title}}</view>
           <view class="tag {{item.tagClass}}">{{item.tag}}</view>
         </view>
+        <view class="brief-item__arrow">›</view>
       </view>
     </view>
   </view>
@@ -44,8 +52,18 @@
       <text class="section__count">{{view.flashes.length}} 组</text>
     </view>
 
-    <view class="flash-group" wx:for="{{view.flashes}}" wx:key="key">
-      <view class="flash-group__title">{{item.title}}</view>
+    <view
+      class="flash-group"
+      wx:for="{{view.flashes}}"
+      wx:key="key"
+      data-kind="flash"
+      data-idx="{{index}}"
+      bindtap="onOpenBrief"
+    >
+      <view class="flash-group__title">
+        <text>{{item.title}}</text>
+        <text class="flash-group__more">展开 ›</text>
+      </view>
       <view class="flash-item" wx:for="{{item.children}}" wx:for-item="child" wx:key="key">
         <text class="flash-item__index">{{child.index}}</text>
         <text class="flash-item__text">{{child.title}}</text>

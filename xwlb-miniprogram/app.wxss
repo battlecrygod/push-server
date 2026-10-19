@@ -158,6 +158,34 @@ scroll-view {
   color: #1f2328;
 }
 
+.brief-item--tap:active {
+  background: #fafbfc;
+}
+
+.brief-item__arrow {
+  flex: none;
+  margin-left: 14rpx;
+  font-size: 32rpx;
+  color: #d5d9df;
+  line-height: 1.6;
+}
+
+.flash-group__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flash-group__more {
+  font-size: 22rpx;
+  color: #a6adb8;
+  font-weight: 400;
+}
+
+.flash-group:active {
+  background: #fafbfc;
+}
+
 .brief-item__children {
   margin-top: 16rpx;
 }

@@ -1,0 +1,55 @@
+.brief-head {
+  padding: 36rpx 4rpx 26rpx;
+}
+
+.brief-head__date {
+  font-size: 23rpx;
+  color: #a6adb8;
+  letter-spacing: 1rpx;
+}
+
+.brief-head__title {
+  margin-top: 12rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 1.42;
+  letter-spacing: -0.5rpx;
+  color: #14161a;
+}
+
+.article {
+  margin-top: 26rpx;
+  background: #ffffff;
+  border-radius: 24rpx;
+  border: 1rpx solid #eef0f3;
+  padding: 36rpx 32rpx 32rpx;
+}
+
+.article__para {
+  font-size: 31rpx;
+  line-height: 1.92;
+  color: #23262b;
+  margin-bottom: 26rpx;
+}
+
+.article__para:last-child {
+  margin-bottom: 0;
+}
+
+.article__source {
+  margin-top: 22rpx;
+  text-align: right;
+  font-size: 22rpx;
+  color: #b3b9c2;
+}
+
+.notice--error {
+  color: #b3261e;
+  background: #fdecea;
+}
+
+.brief-retry {
+  margin-top: 30rpx;
+  height: 84rpx;
+  font-size: 27rpx;
+}

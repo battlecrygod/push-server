@@ -72,4 +72,4 @@ function decorateArchiveItem(edition) {
   };
 }
 
-module.exports = { decorateEdition, decorateArchiveItem, pad2, tagOf };
+module.exports = { decorateEdition, decorateArchiveItem, pad2, tagOf, TAG_STYLES };
