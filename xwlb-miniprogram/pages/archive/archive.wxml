@@ -1,0 +1,38 @@
+<view class="page">
+  <view class="archive-head">
+    <text class="archive-head__title">往期回顾</text>
+    <text class="archive-head__count" wx:if="{{total}}">共 {{total}} 期</text>
+  </view>
+
+  <view class="notice" wx:if="{{notice}}">{{notice}}</view>
+
+  <block wx:for="{{groups}}" wx:key="ym">
+    <view class="month-label">{{item.label}}</view>
+    <view class="archive-card">
+      <view
+        class="archive-item"
+        wx:for="{{item.items}}"
+        wx:for-item="row"
+        wx:key="date"
+        data-date="{{row.date}}"
+        bindtap="onOpen"
+      >
+        <view class="archive-item__date">
+          <text class="archive-item__day">{{row.day}}</text>
+          <text class="archive-item__week">{{row.weekday}}</text>
+        </view>
+        <view class="archive-item__body">
+          <view class="archive-item__lead">{{row.lead}}</view>
+          <view class="archive-item__meta">{{row.pointCount}} 条要点</view>
+        </view>
+        <view class="archive-item__arrow">›</view>
+      </view>
+    </view>
+  </block>
+
+  <view class="load-more" wx:if="{{hasMore}}" bindtap="onLoadMore">
+    {{loadingMore ? '加载中…' : '加载更早的内容'}}
+  </view>
+
+  <view class="empty" wx:if="{{!loading && !total}}">还没有可回看的往期内容</view>
+</view>

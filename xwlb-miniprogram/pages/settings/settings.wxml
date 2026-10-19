@@ -1,0 +1,48 @@
+<view class="page">
+  <view class="masthead">
+    <view class="masthead__date">我的</view>
+  </view>
+
+  <view class="panel">
+    <view class="panel__row panel__row--tight">
+      <view class="panel__label">每天早上收到昨日要点</view>
+      <view class="panel__value" wx:if="{{quota > 0}}">已开启 {{quota}} 次</view>
+      <view class="panel__value panel__value--muted" wx:else>未开启</view>
+    </view>
+    <view class="panel__hint">
+      微信的一次性订阅消息：授权一次可收到一条推送。要连续每天收到，可以在每次收到推送后回来再点一次开启。
+    </view>
+    <view class="btn {{configured ? 'btn--primary' : 'btn--plain'}} panel__btn" bindtap="onSubscribe">
+      {{configured ? '开启每日推送' : '配置模板 ID 后可开启'}}
+    </view>
+  </view>
+
+  <view class="panel">
+    <view class="panel__row">
+      <view class="panel__label">数据来源</view>
+      <view class="panel__value panel__value--link" bindtap="onCopySource">央视网 · 新闻联播</view>
+    </view>
+    <view class="panel__row">
+      <view class="panel__label">已加载期数</view>
+      <view class="panel__value">{{cachedCount}} 期</view>
+    </view>
+    <view class="panel__row">
+      <view class="panel__label">最新一期</view>
+      <view class="panel__value">{{latestDate || '—'}}</view>
+    </view>
+    <view class="panel__row panel__row--action" bindtap="onClearCache">
+      <view class="panel__label">清除本地缓存</view>
+      <view class="panel__value panel__value--arrow">›</view>
+    </view>
+  </view>
+
+  <view class="about">
+    <view class="about__title">关于这个工具</view>
+    <view class="about__text">
+      把每晚《新闻联播》的节目条目整理成一份可以直接扫读的清单，附一句大模型生成的整体概括。
+      条目文字来自央视网公开的节目信息，不含评论与二次加工。
+    </view>
+  </view>
+
+  <view class="footer-note">v{{version}}</view>
+</view>

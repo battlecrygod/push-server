@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/archive/archive",
+    "pages/detail/detail",
+    "pages/settings/settings"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "昨日联播",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F5F6F8",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#9AA0A6",
+    "selectedColor": "#C62828",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "今天"
+      },
+      {
+        "pagePath": "pages/archive/archive",
+        "text": "往期"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "xwlb-daily",
+  "version": "1.0.0",
+  "description": "昨日联播 - 每日新闻联播要点速览",
+  "private": true,
+  "dependencies": {
+    "@tencent-ai/workbuddy-cloud-sdk": "dev"
+  }
+}

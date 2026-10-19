@@ -1,0 +1,27 @@
+{
+  "miniprogramRoot": "./",
+  "compileType": "miniprogram",
+  "appid": "touristappid",
+  "projectname": "xwlb-daily",
+  "description": "每日新闻联播要点速览",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "nodeModules": true,
+    "coverView": true,
+    "showShadowRootInWxmlPanel": true,
+    "ignoreDevUnusedFiles": false,
+    "checkInvalidKey": true
+  },
+  "packOptions": {
+    "ignore": [
+      { "type": "folder", "value": "tests" },
+      { "type": "folder", "value": "node_modules" }
+    ],
+    "include": []
+  },
+  "libVersion": "3.6.0"
+}

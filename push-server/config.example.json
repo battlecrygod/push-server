@@ -1,0 +1,16 @@
+{
+  "appId": "",
+  "appSecret": "",
+  "templateId": "",
+  "page": "pages/index/index",
+  "pushTime": "07:30",
+  "port": 8787,
+  "clientToken": "",
+  "miniprogramState": "formal",
+  "subscriberFile": "./data/subscribers.json",
+  "templateData": {
+    "thing1": "{title}",
+    "thing2": "{summary20}",
+    "date3": "{date}"
+  }
+}

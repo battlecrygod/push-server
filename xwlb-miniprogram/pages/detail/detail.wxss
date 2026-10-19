@@ -1,0 +1,9 @@
+.digest__text--loading {
+  color: #a6adb8;
+}
+
+.detail-video {
+  margin-top: 34rpx;
+  height: 84rpx;
+  font-size: 27rpx;
+}

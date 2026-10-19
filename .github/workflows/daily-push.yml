@@ -1,0 +1,58 @@
+name: 每日联播推送
+
+# 每天北京时间 07:30 推送前一天的《新闻联播》要点
+#
+# 注意：GitHub 的 cron 用的是 UTC，北京是 UTC+8，
+# 所以 07:30（北京）= 23:30（UTC，前一天）—— 下面这个表达式对应北京时间早上 7:30。
+# 另外 GitHub 的定时任务在高峰期可能延迟几分钟到十几分钟，属于正常现象。
+
+on:
+  schedule:
+    - cron: '30 23 * * *'
+  # 支持在 Actions 页面手动点一下就跑，方便调试
+  workflow_dispatch:
+
+# 需要写权限，把更新后的订阅名单提交回仓库
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-push
+  cancel-in-progress: false
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v4
+
+      - name: 准备 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 发送推送
+        env:
+          XWLB_APP_ID: ${{ secrets.XWLB_APP_ID }}
+          XWLB_APP_SECRET: ${{ secrets.XWLB_APP_SECRET }}
+          XWLB_TEMPLATE_ID: ${{ secrets.XWLB_TEMPLATE_ID }}
+          XWLB_CLIENT_TOKEN: ${{ secrets.XWLB_CLIENT_TOKEN }}
+        run: node push-server/src/index.js --once
+
+      - name: 保存订阅名单
+        # 每次运行的 runner 都是全新的，不提交回来下次就丢了。
+        # 如果订阅名单有变化，提交一次；没变化就跳过。
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A push-server/data 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "订阅名单没有变化，跳过提交"
+          else
+            git commit -m "chore: 更新订阅名单"
+            git push || (git pull --rebase --autostash && git push)
+          fi

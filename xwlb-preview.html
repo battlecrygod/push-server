@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>昨日联播 · 界面预览</title>
+<style>
+  :root{
+    --red:#C62828;
+    --bg:#F5F6F8;
+    --card:#FFFFFF;
+    --border:#EEF0F3;
+    --text:#1F2328;
+    --text-2:#3D434B;
+    --muted:#868E96;
+    --faint:#A6ADB8;
+    --line:#F2F4F6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-font-smoothing:antialiased;}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    background:#EDEFF2;
+    min-height:100vh;
+    display:flex;align-items:center;justify-content:center;
+    padding:32px 16px;
+    color:var(--text);
+  }
+  .stage{display:flex;gap:44px;align-items:center;flex-wrap:wrap;justify-content:center;}
+
+  .caption{max-width:270px;}
+  .caption h1{font-size:22px;font-weight:700;letter-spacing:-.3px;margin-bottom:10px;}
+  .caption p{font-size:13px;line-height:1.75;color:#6B7280;}
+  .caption .k{display:inline-block;margin-top:14px;font-size:11px;letter-spacing:1px;color:var(--red);background:#FDECEA;padding:6px 10px;border-radius:6px;}
+
+  .phone{
+    width:390px;height:844px;background:var(--bg);border-radius:44px;
+    box-shadow:0 30px 70px rgba(20,22,26,.16),0 0 0 10px #1A1D21,0 0 0 11px #2C3038;
+    display:flex;flex-direction:column;overflow:hidden;position:relative;
+  }
+
+  .statusbar{
+    height:46px;display:flex;align-items:flex-end;justify-content:space-between;
+    padding:0 26px 6px;font-size:13px;font-weight:600;color:#14161A;flex:none;
+  }
+  .statusbar .right{display:flex;gap:5px;align-items:center;font-size:11px;letter-spacing:.5px;}
+
+  .navbar{
+    height:44px;display:flex;align-items:center;justify-content:center;
+    position:relative;flex:none;background:#fff;
+  }
+  .navbar__title{font-size:16px;font-weight:600;color:#14161A;}
+  .navbar__back{
+    position:absolute;left:14px;top:0;height:44px;display:flex;align-items:center;
+    font-size:22px;color:#333;cursor:pointer;padding:0 10px;line-height:1;
+  }
+
+  .screen{flex:1;overflow-y:auto;overflow-x:hidden;background:var(--bg);}
+  .screen::-webkit-scrollbar{width:0;}
+
+  .page{padding:0 14px 28px;}
+
+  .masthead{padding:20px 2px 15px;}
+  .masthead__date{font-size:28px;font-weight:700;letter-spacing:-.5px;line-height:1.15;color:#14161A;}
+  .masthead__meta{margin-top:7px;display:flex;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--muted);}
+  .masthead__meta span+span::before{content:"·";margin:0 6px;color:#C9CED6;}
+
+  .digest{background:var(--card);border-radius:12px;padding:16px;border:1px solid var(--border);
+    box-shadow:0 3px 12px rgba(20,22,26,.04);margin-bottom:17px;}
+  .digest__label{display:flex;align-items:center;font-size:11px;font-weight:600;letter-spacing:1px;color:var(--red);margin-bottom:8px;}
+  .digest__dot{width:5px;height:5px;border-radius:50%;background:var(--red);margin-right:5px;}
+  .digest__text{font-size:15.5px;line-height:1.78;color:#23262B;}
+  .digest__hint{margin-top:9px;font-size:11px;color:var(--faint);}
+
+  .section__head{display:flex;align-items:baseline;justify-content:space-between;padding:9px 2px 7px;}
+  .section__title{font-size:13px;font-weight:600;letter-spacing:1px;color:#4A5058;}
+  .section__count{font-size:11px;color:var(--faint);}
+
+  .brief-list{background:var(--card);border-radius:12px;border:1px solid var(--border);overflow:hidden;}
+  .brief-item{display:flex;padding:14px 14px 14px 12px;border-bottom:1px solid var(--line);}
+  .brief-item:last-child{border-bottom:none;}
+  .brief-item__index{flex:none;width:31px;font-size:13px;font-weight:700;color:#D8DCE2;line-height:1.5;letter-spacing:.5px;}
+  .brief-item__body{flex:1;min-width:0;}
+  .brief-item__title{font-size:15px;line-height:1.62;color:var(--text);}
+  .brief-item__children{margin-top:8px;}
+
+  .tag{display:inline-block;font-size:10px;line-height:1;padding:4px 6px;border-radius:4px;margin-top:7px;}
+  .tag--top{color:#B3261E;background:#FDECEA;}
+  .tag--domestic{color:#1F6FEB;background:#EAF1FD;}
+  .tag--international{color:#6B5BD2;background:#F0EDFD;}
+  .tag--flash{color:#6B7280;background:#F0F2F4;}
+
+  .flash-group{background:var(--card);border-radius:12px;border:1px solid var(--border);padding:14px 14px 10px;margin-bottom:11px;}
+  .flash-group__title{font-size:13px;font-weight:600;color:#4A5058;margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--line);}
+  .flash-item{display:flex;padding:5px 0;}
+  .flash-item__index{flex:none;width:19px;font-size:12px;color:#C3C9D1;line-height:1.6;}
+  .flash-item__text{flex:1;font-size:13.5px;line-height:1.6;color:var(--text-2);}
+
+  .action-row{display:flex;gap:10px;margin-top:17px;}
+  .btn{display:flex;align-items:center;justify-content:center;height:42px;border-radius:10px;
+    font-size:13.5px;font-weight:500;cursor:pointer;border:1px solid var(--border);background:#fff;color:#4A5058;}
+  .action-row .btn{flex:1;}
+  .btn--primary{background:var(--red);color:#fff;border-color:var(--red);}
+
+  .subscribe{display:flex;align-items:center;margin-top:12px;padding:15px 14px;
+    background:linear-gradient(135deg,#FFF7F6 0%,#FFFFFF 60%);border:1px solid #F6E2E0;border-radius:12px;}
+  .subscribe__body{flex:1;min-width:0;}
+  .subscribe__title{font-size:14px;font-weight:600;color:#2A2D33;}
+  .subscribe__desc{margin-top:4px;font-size:11px;color:#9AA1AA;}
+  .subscribe__btn{flex:none;margin-left:10px;padding:8px 17px;border-radius:999px;background:var(--red);
+    color:#fff;font-size:13px;font-weight:500;cursor:pointer;}
+
+  .footer-note{margin-top:20px;text-align:center;font-size:11px;color:#B3B9C2;line-height:1.7;}
+
+  .archive-head{display:flex;align-items:baseline;justify-content:space-between;padding:20px 2px 13px;}
+  .archive-head__title{font-size:22px;font-weight:700;color:#14161A;letter-spacing:-.3px;}
+  .archive-head__count{font-size:11px;color:var(--faint);}
+  .month-label{font-size:12px;font-weight:600;color:var(--muted);letter-spacing:.5px;padding:13px 4px 7px;}
+  .archive-card{background:#fff;border-radius:12px;border:1px solid var(--border);overflow:hidden;}
+  .archive-item{display:flex;align-items:center;padding:13px 12px;border-bottom:1px solid var(--line);cursor:pointer;}
+  .archive-item:last-child{border-bottom:none;}
+  .archive-item:hover{background:#FAFBFC;}
+  .archive-item__date{flex:none;width:38px;text-align:center;padding-right:9px;}
+  .archive-item__day{display:block;font-size:19px;font-weight:700;color:#14161A;line-height:1.1;letter-spacing:-.3px;}
+  .archive-item__week{display:block;margin-top:2px;font-size:10px;color:var(--faint);}
+  .archive-item__body{flex:1;min-width:0;}
+  .archive-item__lead{font-size:13.5px;line-height:1.55;color:#2A2D33;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+  .archive-item__meta{margin-top:4px;font-size:10.5px;color:#B3B9C2;}
+  .archive-item__arrow{flex:none;margin-left:6px;font-size:17px;color:#D5D9DF;line-height:1;}
+
+  .panel{background:#fff;border-radius:12px;border:1px solid var(--border);padding:4px 14px 12px;margin-bottom:12px;}
+  .panel__row{display:flex;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:1px solid #F4F6F8;}
+  .panel__row:last-child{border-bottom:none;}
+  .panel__label{font-size:14px;color:#2A2D33;}
+  .panel__value{font-size:13px;color:#6B7280;}
+  .panel__value--link{color:var(--red);cursor:pointer;}
+  .panel__value--arrow{color:#D5D9DF;font-size:16px;}
+  .panel__hint{font-size:11px;line-height:1.7;color:#9AA1AA;padding:2px 0 11px;}
+  .panel__btn{margin-top:2px;}
+
+  .about{padding:4px 2px 0;}
+  .about__title{font-size:12px;font-weight:600;color:var(--muted);letter-spacing:.5px;margin-bottom:6px;}
+  .about__text{font-size:12px;line-height:1.8;color:#9AA1AA;}
+
+  .tabbar{flex:none;height:56px;background:#fff;border-top:1px solid #F0F2F4;display:flex;padding-bottom:8px;}
+  .tabbar__item{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:3px;font-size:10.5px;color:#9AA0A6;cursor:pointer;}
+  .tabbar__item.is-active{color:var(--red);}
+  .tabbar__dot{width:5px;height:5px;border-radius:50%;background:currentColor;opacity:.85;}
+
+  .toast{position:absolute;left:50%;bottom:100px;transform:translateX(-50%);
+    background:rgba(30,32,36,.88);color:#fff;font-size:12.5px;padding:9px 16px;border-radius:8px;
+    opacity:0;transition:opacity .25s;pointer-events:none;white-space:nowrap;}
+  .toast.is-on{opacity:1;}
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="caption">
+    <h1>昨日联播</h1>
+    <p>每晚《新闻联播》的条目，整理成早上一眼扫完的清单，配一句整体概括。可回看往期，可订阅每日推送。</p>
+    <p style="margin-top:10px">下面的手机框是真实交互的界面预览，可以点标签切换、点往期进详情。</p>
+    <span class="k">界面预览 · 数据为真实内容</span>
+  </div>
+
+  <div class="phone">
+    <div class="statusbar">
+      <span>9:41</span>
+      <span class="right"><span>●●●</span><span>WiFi</span><span>100%</span></span>
+    </div>
+    <div class="navbar">
+      <div class="navbar__back" id="navBack" style="display:none" onclick="goBack()">‹</div>
+      <div class="navbar__title" id="navTitle">昨日联播</div>
+    </div>
+    <div class="screen" id="screen"></div>
+    <div class="tabbar" id="tabbar"></div>
+    <div class="toast" id="toast"></div>
+  </div>
+</div>
+
+<script>
+const DATA = {
+  "editions": [
+    {
+      "date": "2026-10-17",
+      "displayDate": "10月17日",
+      "weekday": "周六",
+      "pointCount": 20,
+      "summary": "习近平内蒙古考察重要讲话引发热烈反响，李强出席世界传统医药大会并出访乌兹别克斯坦；服务贸易稳增，广交会AI新品成外贸新动能。",
+      "mains": [
+        {
+          "title": "厚植绿色根基 因地制宜推动高质量发展——习近平总书记在内蒙古乌兰察布考察时的重要讲话引发广大干部群众热烈反响",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "李强出席2026世界传统医药大会开幕式并致辞",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "李强抵达塔什干开始对乌兹别克斯坦进行正式访问",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "王沪宁在四川调研",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "前八个月我国服务贸易保持较快增长",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "广交会：人工智能新品为外贸增长注入新动能",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "各地优化服务 保障群众温暖过冬",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "【文化中国行·校馆弦歌】从征途课堂马背书香到新时代的长征路",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "日本人士表示日本应正视历史 反省战争罪行",
+          "region": "international",
+          "children": []
+        },
+        {
+          "title": "也门政府称亚丁机场遭袭 胡塞武装称打击沙特军事目标",
+          "region": "international",
+          "children": []
+        }
+      ],
+      "flashes": [
+        {
+          "title": "国内联播快讯",
+          "children": [
+            {
+              "title": "《世界职业技术教育标准框架》发布"
+            },
+            {
+              "title": "粤港澳大湾区首个知识型综保区正式封关运作"
+            },
+            {
+              "title": "我国户外运动相关产业总规模约3.17万亿元"
+            },
+            {
+              "title": "我国再添四处世界灌溉工程遗产"
+            },
+            {
+              "title": "东北华北等地出现大范围强降雨"
+            }
+          ]
+        },
+        {
+          "title": "国际联播快讯",
+          "children": [
+            {
+              "title": "俄称打击乌军需企业 乌呼吁欧盟援助"
+            },
+            {
+              "title": "美国2026财年预算赤字接近2万亿美元"
+            },
+            {
+              "title": "伦敦布伦特原油期价再次触及110美元"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "displayDate": "10月16日",
+      "weekday": "周五",
+      "pointCount": 22,
+      "summary": "习近平在内蒙古考察，强调统筹高质量发展与高水平保护、走生态优先绿色发展之路；李强主持国务院常务会议，养老服务价格进一步规范。",
+      "mains": [
+        {
+          "title": "习近平在内蒙古乌兰察布考察时强调 统筹高质量发展和高水平保护 坚定不移走生态优先绿色发展之路",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "央视快评：坚定不移走生态优先绿色发展之路",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "《求是》杂志发表习近平总书记重要文章《以更高标准、更实举措推进全面从严治党》",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "习近平致信祝贺湖南大学建校100周年",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "李强主持召开国务院常务会议",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "丁薛祥出席2026年世界职业技术教育发展大会开幕式并会见与会外国政要",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "【赓续长征精神 奋进复兴征程】青海：雪域传薪火 绿色启新程",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "我国进一步规范养老服务价格",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "第140届广交会：以前沿创新展品对接全球供需",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "4100多家境外企业参展第九届进博会",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "我国智能粮仓建设取得显著成效",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "国务院新闻办举行“新征程上的奋斗者”中外记者见面会",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "也门政府称总统府遭袭 胡塞武装称袭击沙特指挥部 沙特主导的多国联军称本月利雅得机场遭袭20次 胡塞武装称相关行动属防御性质",
+          "region": "international",
+          "children": []
+        },
+        {
+          "title": "3位中国女性获联合国粮农组织“巾帼英雄”表彰",
+          "region": "international",
+          "children": []
+        }
+      ],
+      "flashes": [
+        {
+          "title": "国内联播快讯",
+          "children": [
+            {
+              "title": "我国研究与试验发展经费总量位居世界第二位"
+            },
+            {
+              "title": "我国船舶工业市场份额连续16年全球领先"
+            },
+            {
+              "title": "《高端访谈》今晚播出对博茨瓦纳总统博科的专访"
+            }
+          ]
+        },
+        {
+          "title": "国际联播快讯",
+          "children": [
+            {
+              "title": "俄方反对日方就涉嫌间谍活动人员的交涉"
+            },
+            {
+              "title": "美联储报告称高油价对经济产生广泛影响"
+            },
+            {
+              "title": "国际计量大会决定取消闰秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "displayDate": "10月15日",
+      "weekday": "周四",
+      "pointCount": 29,
+      "summary": "习近平总书记重要讲话激励卫生健康工作者推进健康中国建设；李强出席中朝新鸭绿江大桥开通仪式，并将出访中亚、出席上合总理会议。",
+      "mains": [
+        {
+          "title": "建成均衡普惠、优质高效的健康中国——习近平总书记重要讲话激励广大卫生与健康工作者履职尽责、担当作为",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "李强在中朝新鸭绿江大桥开通仪式上发表视频致辞",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "李强会见博茨瓦纳总统",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "李强举行仪式欢迎多哥部长会议主席访华",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "李强同多哥部长会议主席会谈",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "李强将访问乌兹别克斯坦、塔吉克斯坦并出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议、赴俄罗斯举行中俄总理第三十一次定期会晤",
+          "region": "international",
+          "children": []
+        },
+        {
+          "title": "以强有力监督推动解决群众急难愁盼问题",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "【赓续长征精神 奋进复兴征程】薪火相传向未来 治蜀兴川谱新篇",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "【在希望的田野上】全国秋粮收获进入高峰期 进度过六成",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "我国首批国家公园建设成效显著",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "也门胡塞武装称再次袭击沙特首都机场 沙特称拦截胡塞武装弹道导弹",
+          "region": "international",
+          "children": []
+        },
+        {
+          "title": "霍尔木兹海峡水域本月频发船只遇袭等事件",
+          "region": "international",
+          "children": []
+        }
+      ],
+      "flashes": [
+        {
+          "title": "国内联播快讯",
+          "children": [
+            {
+              "title": "第三轮第七批中央生态环境保护督察全部实现督察进驻"
+            },
+            {
+              "title": "多部门开展网络涉军不当营销和炒作信息专项整治"
+            },
+            {
+              "title": "两部门联合印发意见 强化知识产权协同保护"
+            },
+            {
+              "title": "第140届广交会带动广州全域口岸入境客流量走高"
+            },
+            {
+              "title": "我国首次完成绿证跨境集中交易"
+            },
+            {
+              "title": "渤海海域通信感知网正式开通运行"
+            },
+            {
+              "title": "9月份中国仓储指数有所回升"
+            },
+            {
+              "title": "朱雀二号改进型火箭完成一箭十星发射任务"
+            },
+            {
+              "title": "教育部成立雄安教师发展中心"
+            },
+            {
+              "title": "第115届全国糖酒商品交易会今天开幕"
+            },
+            {
+              "title": "电视纪录片《伟大远征》今晚播出"
+            }
+          ]
+        },
+        {
+          "title": "国际联播快讯",
+          "children": [
+            {
+              "title": "俄称拦截乌攻击俄炼油厂的无人机和导弹"
+            },
+            {
+              "title": "国际能源署称柴油供应紧张将持续至明年"
+            },
+            {
+              "title": "美国9月消费者价格指数同比上涨3.7%"
+            },
+            {
+              "title": "内阁改组近一月 日本农相因丑闻辞职"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "displayDate": "10月14日",
+      "weekday": "周三",
+      "pointCount": 27,
+      "summary": "习近平致信祝贺第140届广交会开幕，李强出席并发表主旨演讲；卫生与健康大会精神持续引发反响，多项民生与开放举措集中发布。",
+      "mains": [
+        {
+          "title": "习近平向第140届中国进出口商品交易会致贺信",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "央视快评：为世界发展繁荣持续注入新动力",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "不断提高人民健康水平 确保健康中国建设取得决定性进展——习近平总书记在全国卫生与健康大会上的重要讲话引发热烈反响",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "李强出席第140届中国进出口商品交易会开幕式并发表主旨演讲",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "李强出席“广交世界70年”座谈会",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "赵乐际集体会见出席2026年国际议员友好交流论坛的各国代表",
+          "region": "international",
+          "children": []
+        },
+        {
+          "title": "丁薛祥会见清华大学经济管理学院顾问委员会委员代表",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "【赓续长征精神 奋进复兴征程】云南：以实干实绩走好新时代长征路",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "前三季度我国物价保持平稳运行",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "前三季度我国货物贸易进出口39.94万亿元",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "9月末社会融资规模存量同比增长7.1%",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "第33届世界大学生冬季运动会各项筹备工作有序推进",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "俄逮捕一名涉嫌从事间谍活动的日本人 俄外交部称日方做法将令俄日关系进一步恶化",
+          "region": "international",
+          "children": []
+        },
+        {
+          "title": "沙特主导的联军和也门胡塞武装相互打击对方能源设施",
+          "region": "international",
+          "children": []
+        }
+      ],
+      "flashes": [
+        {
+          "title": "国内联播快讯",
+          "children": [
+            {
+              "title": "中央依法治国办启动领导干部依法办事情况法治督察"
+            },
+            {
+              "title": "2026年“社保服务进万家”活动今天启动"
+            },
+            {
+              "title": "我国将加强农村助老员队伍建设"
+            },
+            {
+              "title": "9月电商物流指数环比回升 供需协同向好"
+            },
+            {
+              "title": "我国进一步完善矿产资源分类管理"
+            },
+            {
+              "title": "Visa在中国境内获批筹备设立银行卡清算机构"
+            },
+            {
+              "title": "新疆多地胡杨林渐入最佳赏秋季"
+            }
+          ]
+        },
+        {
+          "title": "国际联播快讯",
+          "children": [
+            {
+              "title": "俄称击落大量乌无人机 乌称基辅再遭袭"
+            },
+            {
+              "title": "黑海水域再次发生船只遇袭事件"
+            },
+            {
+              "title": "“北溪”管道爆炸案今天在德国开庭"
+            },
+            {
+              "title": "欧洲天然气价格升至近四年最高水平"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "displayDate": "10月13日",
+      "weekday": "周二",
+      "pointCount": 18,
+      "summary": "习近平在全国卫生与健康大会上强调走中国特色卫生与健康发展道路；会见博茨瓦纳总统与多哥部长会议主席，多项对外交往安排同日发布。",
+      "mains": [
+        {
+          "title": "习近平在全国卫生与健康大会上强调 坚定不移走中国特色卫生与健康发展道路 确保“十五五”时期健康中国建设取得决定性进展",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "央视快评：确保健康中国建设取得决定性进展",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "习近平举行仪式欢迎博茨瓦纳总统访华",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "习近平同博茨瓦纳总统会谈",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "习近平会见多哥部长会议主席",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "习近平致电祝贺马迪塞就任爱沙尼亚总统",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "赵乐际分别会见博茨瓦纳总统、多哥部长会议主席",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "第140届广交会推出超50项创新举措提升展会服务效能",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "国务院新闻办举行“新征程上的奋斗者”中外记者见面会",
+          "region": "domestic",
+          "children": []
+        },
+        {
+          "title": "缅北魏氏家族电诈案一审宣判",
+          "region": "international",
+          "children": []
+        }
+      ],
+      "flashes": [
+        {
+          "title": "联播快讯",
+          "children": [
+            {
+              "title": "新修订的《烈士纪念设施保护管理办法》11月起施行"
+            },
+            {
+              "title": "各地开展“高举队旗跟党走 少年接力新长征”主题活动"
+            },
+            {
+              "title": "“红星照耀中国·新长征再出发”网络主题宣传活动举行"
+            },
+            {
+              "title": "第十六届中国航展将于12月举行 规模再创新高"
+            },
+            {
+              "title": "沙特首都再遭袭 胡塞警告美国勿介入"
+            },
+            {
+              "title": "欧盟新增对俄大规模制裁 俄称将作回应"
+            },
+            {
+              "title": "法数百超市制冷系统遭网络攻击损失严重"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+const TAG_CLASS = {
+  '总书记':'tag--top','总理':'tag--top','专题':'tag--domestic','评论':'tag--flash',
+  '国内':'tag--domestic','国际':'tag--international','快讯':'tag--flash'
+};
+
+function tagOf(item){
+  const t = item.title || '';
+  if(/习近平|总书记/.test(t)) return '总书记';
+  if(/李强|总理/.test(t)) return '总理';
+  if(/央视快评|本台评论|短评/.test(t)) return '评论';
+  if(/【/.test(t)) return '专题';
+  if(/快讯/.test(t)) return '快讯';
+  if(item.region === 'international') return '国际';
+  return '国内';
+}
+function pad2(n){ return n<10 ? '0'+n : ''+n; }
+function esc(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+let state = { tab:'home', detailDate:null };
+
+function toast(msg){
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('is-on');
+  clearTimeout(el._t);
+  el._t = setTimeout(()=>el.classList.remove('is-on'), 1600);
+}
+
+function renderNav(){
+  const back = document.getElementById('navBack');
+  const title = document.getElementById('navTitle');
+  if(state.detailDate){
+    back.style.display = 'flex';
+    title.textContent = '新闻联播';
+  }else{
+    back.style.display = 'none';
+    title.textContent = '昨日联播';
+  }
+}
+
+function renderTabs(){
+  const tabs = [
+    {k:'home', t:'今天'},
+    {k:'archive', t:'往期'},
+    {k:'settings', t:'我的'}
+  ];
+  document.getElementById('tabbar').innerHTML = tabs.map(t=>`
+    <div class="tabbar__item ${state.tab===t.k && !state.detailDate ?'is-active':''}" onclick="switchTab('${t.k}')">
+      <div class="tabbar__dot"></div><span>${t.t}</span>
+    </div>`).join('');
+}
+
+function switchTab(k){
+  state.tab = k; state.detailDate = null;
+  render();
+}
+
+function openDetail(date){
+  state.detailDate = date;
+  render();
+}
+
+function goBack(){
+  state.detailDate = null;
+  render();
+}
+
+function renderBriefItem(item, i){
+  const tag = tagOf(item);
+  const kids = (item.children||[]).map((c,j)=>`
+    <div class="flash-item">
+      <span class="flash-item__index">${j+1}</span>
+      <span class="flash-item__text">${esc(c.title)}</span>
+    </div>`).join('');
+  return `
+    <div class="brief-item">
+      <div class="brief-item__index">${pad2(i+1)}</div>
+      <div class="brief-item__body">
+        <div class="brief-item__title">${esc(item.title)}</div>
+        <div class="tag ${TAG_CLASS[tag]||'tag--domestic'}">${tag}</div>
+        ${kids? `<div class="brief-item__children">${kids}</div>`:''}
+      </div>
+    </div>`;
+}
+
+function renderEditionBody(e){
+  const mains = e.mains.map(renderBriefItem).join('');
+  const flashes = e.flashes.map(g=>`
+    <div class="flash-group">
+      <div class="flash-group__title">${esc(g.title)}</div>
+      ${(g.children||[]).map((c,i)=>`
+        <div class="flash-item">
+          <span class="flash-item__index">${i+1}</span>
+          <span class="flash-item__text">${esc(c.title)}</span>
+        </div>`).join('')}
+    </div>`).join('');
+
+  return `
+    <div class="page">
+      <div class="masthead">
+        <div class="masthead__date">${esc(e.displayDate)}</div>
+        <div class="masthead__meta">
+          <span>${esc(e.weekday)}</span>
+          <span>${e.pointCount} 条要点</span>
+        </div>
+      </div>
+
+      <div class="digest">
+        <div class="digest__label"><div class="digest__dot"></div><span>一句话看懂</span></div>
+        <div class="digest__text">${esc(e.summary)}</div>
+        <div class="digest__hint">由大模型依据联播条目生成</div>
+      </div>
+
+      <div class="section__head">
+        <span class="section__title">主要内容</span>
+        <span class="section__count">${e.mains.length} 条</span>
+      </div>
+      <div class="brief-list">${mains}</div>
+
+      ${flashes ? `
+      <div class="section__head">
+        <span class="section__title">联播快讯</span>
+        <span class="section__count">${e.flashes.length} 组</span>
+      </div>
+      ${flashes}` : ''}
+
+      <div class="action-row">
+        <div class="btn" onclick="switchTab('archive')">查看往期</div>
+        <div class="btn" onclick="toast('原片链接已复制')">复制原片链接</div>
+      </div>
+
+      ${state.detailDate ? '' : `
+      <div class="subscribe">
+        <div class="subscribe__body">
+          <div class="subscribe__title">每天早上，收到昨日要点</div>
+          <div class="subscribe__desc">微信服务通知，一条一次授权</div>
+        </div>
+        <div class="subscribe__btn" onclick="toast('已开启订阅')">开启</div>
+      </div>`}
+
+      <div class="footer-note">内容整理自央视网《新闻联播》公开节目信息</div>
+    </div>`;
+}
+
+function renderHome(){
+  return renderEditionBody(DATA.editions[0]);
+}
+
+function renderArchive(){
+  const groups = [];
+  let cur = null;
+  for(const e of DATA.editions){
+    const ym = e.date.slice(0,7);
+    if(!cur || cur.ym !== ym){
+      cur = { ym, label:`${ym.slice(0,4)}年${Number(ym.slice(5,7))}月`, items:[] };
+      groups.push(cur);
+    }
+    cur.items.push(e);
+  }
+  const html = groups.map(g=>`
+    <div class="month-label">${g.label}</div>
+    <div class="archive-card">
+      ${g.items.map(e=>{
+        const lead = e.mains[0] ? e.mains[0].title : '';
+        const short = lead.length>42 ? lead.slice(0,42)+'…' : lead;
+        return `<div class="archive-item" onclick="openDetail('${e.date}')">
+          <div class="archive-item__date">
+            <span class="archive-item__day">${Number(e.date.slice(8,10))}</span>
+            <span class="archive-item__week">${esc(e.weekday)}</span>
+          </div>
+          <div class="archive-item__body">
+            <div class="archive-item__lead">${esc(short)}</div>
+            <div class="archive-item__meta">${e.pointCount} 条要点</div>
+          </div>
+          <div class="archive-item__arrow">›</div>
+        </div>`;
+      }).join('')}
+    </div>`).join('');
+
+  return `
+    <div class="page">
+      <div class="archive-head">
+        <span class="archive-head__title">往期回顾</span>
+        <span class="archive-head__count">共 ${DATA.editions.length} 期</span>
+      </div>
+      ${html}
+      <div class="footer-note">以上为演示数据，小程序内可继续向前翻</div>
+    </div>`;
+}
+
+function renderSettings(){
+  return `
+    <div class="page">
+      <div class="masthead"><div class="masthead__date">我的</div></div>
+
+      <div class="panel">
+        <div class="panel__row">
+          <span class="panel__label">每天早上收到昨日要点</span>
+          <span class="panel__value">未开启</span>
+        </div>
+        <div class="panel__hint">微信的一次性订阅消息：授权一次可收到一条推送。要连续每天收到，可以在收到推送后回来再点一次开启。</div>
+        <div class="btn panel__btn" onclick="toast('演示环境未配置模板 ID')">开启每日推送</div>
+      </div>
+
+      <div class="panel">
+        <div class="panel__row">
+          <span class="panel__label">数据来源</span>
+          <span class="panel__value panel__value--link" onclick="toast('链接已复制')">央视网 · 新闻联播</span>
+        </div>
+        <div class="panel__row">
+          <span class="panel__label">已加载期数</span>
+          <span class="panel__value">${DATA.editions.length} 期</span>
+        </div>
+        <div class="panel__row">
+          <span class="panel__label">最新一期</span>
+          <span class="panel__value">${DATA.editions[0].date}</span>
+        </div>
+        <div class="panel__row">
+          <span class="panel__label">清除本地缓存</span>
+          <span class="panel__value panel__value--arrow">›</span>
+        </div>
+      </div>
+
+      <div class="about">
+        <div class="about__title">关于这个工具</div>
+        <div class="about__text">把每晚《新闻联播》的节目条目整理成一份可以直接扫读的清单，附一句大模型生成的整体概括。条目文字来自央视网公开的节目信息，不含评论与二次加工。</div>
+      </div>
+
+      <div class="footer-note">v1.0.0</div>
+    </div>`;
+}
+
+function render(){
+  renderNav();
+  renderTabs();
+  const screen = document.getElementById('screen');
+  let html;
+  if(state.detailDate){
+    const e = DATA.editions.find(x=>x.date===state.detailDate);
+    html = e ? renderEditionBody(e) : '<div class="page"><div class="footer-note">没有找到这一期</div></div>';
+  }else if(state.tab==='archive'){
+    html = renderArchive();
+  }else if(state.tab==='settings'){
+    html = renderSettings();
+  }else{
+    html = renderHome();
+  }
+  screen.innerHTML = html;
+  screen.scrollTop = 0;
+}
+
+render();
+</script>
+</body>
+</html>
