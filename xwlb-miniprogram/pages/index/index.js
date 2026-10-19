@@ -21,6 +21,7 @@ Page({
     digest: '',
     digestLoading: true,
     notice: '',
+    stale: false,
     quota: 0,
     subscribeHint: ''
   },
@@ -41,7 +42,7 @@ Page({
   },
 
   async refresh(force) {
-    this.setData({ notice: '' });
+    this.setData({ notice: '', stale: false });
     try {
       const result = await loadEditions({ pages: 3, force });
       if (result.editions && result.editions.length) {
@@ -50,12 +51,18 @@ Page({
         if (!this.data.view || latest.date !== this.data.view.date) {
           this.applyEdition(latest);
         }
-      }
-      if (result.degraded) {
-        this.setData({ notice: '暂时连不上节目源，先显示本地存档' });
+        if (result.degraded) {
+          this.setData({
+            stale: true,
+            notice: `连不上新闻源，当前是 ${latest.displayDate} 的存档。可在「我的」里检测原因。`
+          });
+        }
       }
     } catch (err) {
-      this.setData({ notice: '暂时连不上节目源，先显示本地存档' });
+      this.setData({
+        stale: true,
+        notice: '连不上新闻源，显示的是本地存档。可在「我的」里检测原因。'
+      });
     }
   },
 

@@ -1,5 +1,350 @@
 [
   {
+    "date": "2026-10-18",
+    "displayDate": "2026年10月18日",
+    "weekday": "周日",
+    "brief": "本期节目主要内容：\n1.【新思想引领新征程】绘就幸福“夕阳红” 持续增进民生福祉；\n2.李强同乌兹别克斯坦总理会谈；\n3.李强会见乌兹别克斯坦总统；\n4.李强赴杜尚别对塔吉克斯坦进行正式访问并出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议；\n5.【赓续长征精神 奋进复兴征程】甘肃：长征足迹印沃土 红色陇原谱新篇；\n6.我国已开通104项全国性跨地区社保服务；\n7.城镇供热“温暖工程”三年行动启动；\n8.全国铁路列车车次编排改革启动；\n9.我国首次太空培育两代水稻取得新突破；\n10.第五届亚残运会今天开幕；\n11.国内联播快讯：\n（1）今年1.3万亿元超长期特别国债发行完毕；\n（2）第四届“良渚论坛”在浙江杭州开幕；\n（3）前三季度深圳对APEC经济体进出口同比增长40%；\n（4）中国农业发展银行2000亿元信贷资金专项用于秋粮收购；\n（5）市场监管总局发布15项氢能国家标准；\n（6）前三季度全国铁路发送旅客37.1亿人次；\n（7）我国确定“十五五”适宜增殖放流水生物种345种；\n（8）中韩海上执法部门圆满完成联合巡航；\n（9）第二十五届中国上海国际艺术节开幕；\n（10）2026长三角国际青年电影周开幕；\n（11）2026国际武当太极文化节开幕；\n12.也门胡塞武装称击落沙特武装直升机 沙特主导联军称拦截多架无人机；\n13.国际联播快讯：\n（1）俄称击落上千架无人机 乌称变电站遭袭；\n（2）欧洲外交人员遭犹太定居者袭击；\n（3）加拿大一军事基地发生火灾；\n（4）美加州南部多处林火持续燃烧；\n（5）肯尼亚新增4例埃博拉确诊病例；\n14.中国传统节日·重阳。\n（《新闻联播》 20261018 21:00）",
+    "items": [
+      {
+        "n": 1,
+        "title": "【新思想引领新征程】绘就幸福“夕阳红” 持续增进民生福祉",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 2,
+        "title": "李强同乌兹别克斯坦总理会谈",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 3,
+        "title": "李强会见乌兹别克斯坦总统",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 4,
+        "title": "李强赴杜尚别对塔吉克斯坦进行正式访问并出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 5,
+        "title": "【赓续长征精神 奋进复兴征程】甘肃：长征足迹印沃土 红色陇原谱新篇",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 6,
+        "title": "我国已开通104项全国性跨地区社保服务",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 7,
+        "title": "城镇供热“温暖工程”三年行动启动",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 8,
+        "title": "全国铁路列车车次编排改革启动",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 9,
+        "title": "我国首次太空培育两代水稻取得新突破",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 10,
+        "title": "第五届亚残运会今天开幕",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 11,
+        "title": "国内联播快讯",
+        "type": "flash",
+        "region": "domestic",
+        "children": [
+          {
+            "n": 1,
+            "title": "今年1.3万亿元超长期特别国债发行完毕"
+          },
+          {
+            "n": 2,
+            "title": "第四届“良渚论坛”在浙江杭州开幕"
+          },
+          {
+            "n": 3,
+            "title": "前三季度深圳对APEC经济体进出口同比增长40%"
+          },
+          {
+            "n": 4,
+            "title": "中国农业发展银行2000亿元信贷资金专项用于秋粮收购"
+          },
+          {
+            "n": 5,
+            "title": "市场监管总局发布15项氢能国家标准"
+          },
+          {
+            "n": 6,
+            "title": "前三季度全国铁路发送旅客37.1亿人次"
+          },
+          {
+            "n": 7,
+            "title": "我国确定“十五五”适宜增殖放流水生物种345种"
+          },
+          {
+            "n": 8,
+            "title": "中韩海上执法部门圆满完成联合巡航"
+          },
+          {
+            "n": 9,
+            "title": "第二十五届中国上海国际艺术节开幕"
+          },
+          {
+            "n": 10,
+            "title": "2026长三角国际青年电影周开幕"
+          },
+          {
+            "n": 11,
+            "title": "2026国际武当太极文化节开幕"
+          }
+        ]
+      },
+      {
+        "n": 12,
+        "title": "也门胡塞武装称击落沙特武装直升机 沙特主导联军称拦截多架无人机",
+        "type": "main",
+        "region": "international",
+        "children": []
+      },
+      {
+        "n": 13,
+        "title": "国际联播快讯",
+        "type": "flash",
+        "region": "international",
+        "children": [
+          {
+            "n": 1,
+            "title": "俄称击落上千架无人机 乌称变电站遭袭"
+          },
+          {
+            "n": 2,
+            "title": "欧洲外交人员遭犹太定居者袭击"
+          },
+          {
+            "n": 3,
+            "title": "加拿大一军事基地发生火灾"
+          },
+          {
+            "n": 4,
+            "title": "美加州南部多处林火持续燃烧"
+          },
+          {
+            "n": 5,
+            "title": "肯尼亚新增4例埃博拉确诊病例"
+          }
+        ]
+      },
+      {
+        "n": 14,
+        "title": "中国传统节日·重阳",
+        "type": "main",
+        "region": "international",
+        "children": []
+      }
+    ],
+    "mains": [
+      {
+        "n": 1,
+        "title": "【新思想引领新征程】绘就幸福“夕阳红” 持续增进民生福祉",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 2,
+        "title": "李强同乌兹别克斯坦总理会谈",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 3,
+        "title": "李强会见乌兹别克斯坦总统",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 4,
+        "title": "李强赴杜尚别对塔吉克斯坦进行正式访问并出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 5,
+        "title": "【赓续长征精神 奋进复兴征程】甘肃：长征足迹印沃土 红色陇原谱新篇",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 6,
+        "title": "我国已开通104项全国性跨地区社保服务",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 7,
+        "title": "城镇供热“温暖工程”三年行动启动",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 8,
+        "title": "全国铁路列车车次编排改革启动",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 9,
+        "title": "我国首次太空培育两代水稻取得新突破",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 10,
+        "title": "第五届亚残运会今天开幕",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 12,
+        "title": "也门胡塞武装称击落沙特武装直升机 沙特主导联军称拦截多架无人机",
+        "type": "main",
+        "region": "international",
+        "children": []
+      },
+      {
+        "n": 14,
+        "title": "中国传统节日·重阳",
+        "type": "main",
+        "region": "international",
+        "children": []
+      }
+    ],
+    "flashes": [
+      {
+        "n": 11,
+        "title": "国内联播快讯",
+        "type": "flash",
+        "region": "domestic",
+        "children": [
+          {
+            "n": 1,
+            "title": "今年1.3万亿元超长期特别国债发行完毕"
+          },
+          {
+            "n": 2,
+            "title": "第四届“良渚论坛”在浙江杭州开幕"
+          },
+          {
+            "n": 3,
+            "title": "前三季度深圳对APEC经济体进出口同比增长40%"
+          },
+          {
+            "n": 4,
+            "title": "中国农业发展银行2000亿元信贷资金专项用于秋粮收购"
+          },
+          {
+            "n": 5,
+            "title": "市场监管总局发布15项氢能国家标准"
+          },
+          {
+            "n": 6,
+            "title": "前三季度全国铁路发送旅客37.1亿人次"
+          },
+          {
+            "n": 7,
+            "title": "我国确定“十五五”适宜增殖放流水生物种345种"
+          },
+          {
+            "n": 8,
+            "title": "中韩海上执法部门圆满完成联合巡航"
+          },
+          {
+            "n": 9,
+            "title": "第二十五届中国上海国际艺术节开幕"
+          },
+          {
+            "n": 10,
+            "title": "2026长三角国际青年电影周开幕"
+          },
+          {
+            "n": 11,
+            "title": "2026国际武当太极文化节开幕"
+          }
+        ]
+      },
+      {
+        "n": 13,
+        "title": "国际联播快讯",
+        "type": "flash",
+        "region": "international",
+        "children": [
+          {
+            "n": 1,
+            "title": "俄称击落上千架无人机 乌称变电站遭袭"
+          },
+          {
+            "n": 2,
+            "title": "欧洲外交人员遭犹太定居者袭击"
+          },
+          {
+            "n": 3,
+            "title": "加拿大一军事基地发生火灾"
+          },
+          {
+            "n": 4,
+            "title": "美加州南部多处林火持续燃烧"
+          },
+          {
+            "n": 5,
+            "title": "肯尼亚新增4例埃博拉确诊病例"
+          }
+        ]
+      }
+    ],
+    "pointCount": 30,
+    "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEuzkY11vFBQfFQoYDYWL0261018.shtml",
+    "cover": "https://p2.img.cctvpic.com/fmspic/2026/10/18/ad96f85895454e5183559f4a68e0da8e-1.jpg",
+    "duration": "00:29:59",
+    "sourceTime": "2026-10-18 21:00:00"
+  },
+  {
     "date": "2026-10-17",
     "displayDate": "2026年10月17日",
     "weekday": "周六",
@@ -37200,198 +37545,5 @@
     "cover": "https://p4.img.cctvpic.com/photoAlbum/vms/standard/img/2026/6/9/VIDEEjdHTKOAFdtevsZjuR18260609.jpg",
     "duration": "00:38:00",
     "sourceTime": "2026-06-09 21:00:00"
-  },
-  {
-    "date": "2026-06-08",
-    "displayDate": "2026年6月8日",
-    "weekday": "周日",
-    "brief": "本期节目主要内容：\n1.习近平离京对朝鲜进行国事访问；\n2.习近平抵达平壤开始对朝鲜进行国事访问；\n3.习近平出席金正恩举行的欢迎仪式；\n4.习近平同金正恩举行会谈；\n5.习近平在朝鲜媒体发表署名文章；\n6.丁薛祥出席三峡水运新通道工程开工仪式；\n7.国务院印发《现代化应急体系建设“十五五”规划》；\n8.我国海洋生态状况稳中向好；\n9.联播快讯：\n（1）我国出台实施方案推进行业高质量数据集建设；\n（2）国家网信办 市场监管总局联合印发《网络测评活动规范》；\n（3）新版《药物临床试验质量管理规范》发布 9月起实施；\n（4）伊朗和以色列互相发动新打击行动；\n（5）主要产油国宣布7月继续保持增产；\n（6）菲律宾南部发生7.9级强震 19人死亡。\n（《新闻联播》 20260608 21:00）",
-    "items": [
-      {
-        "n": 1,
-        "title": "习近平离京对朝鲜进行国事访问",
-        "type": "main",
-        "region": "international",
-        "children": []
-      },
-      {
-        "n": 2,
-        "title": "习近平抵达平壤开始对朝鲜进行国事访问",
-        "type": "main",
-        "region": "international",
-        "children": []
-      },
-      {
-        "n": 3,
-        "title": "习近平出席金正恩举行的欢迎仪式",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 4,
-        "title": "习近平同金正恩举行会谈",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 5,
-        "title": "习近平在朝鲜媒体发表署名文章",
-        "type": "main",
-        "region": "international",
-        "children": []
-      },
-      {
-        "n": 6,
-        "title": "丁薛祥出席三峡水运新通道工程开工仪式",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 7,
-        "title": "国务院印发《现代化应急体系建设“十五五”规划》",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 8,
-        "title": "我国海洋生态状况稳中向好",
-        "type": "main",
-        "region": "international",
-        "children": []
-      },
-      {
-        "n": 9,
-        "title": "联播快讯",
-        "type": "flash",
-        "region": "domestic",
-        "children": [
-          {
-            "n": 1,
-            "title": "我国出台实施方案推进行业高质量数据集建设"
-          },
-          {
-            "n": 2,
-            "title": "国家网信办 市场监管总局联合印发《网络测评活动规范》"
-          },
-          {
-            "n": 3,
-            "title": "新版《药物临床试验质量管理规范》发布 9月起实施"
-          },
-          {
-            "n": 4,
-            "title": "伊朗和以色列互相发动新打击行动"
-          },
-          {
-            "n": 5,
-            "title": "主要产油国宣布7月继续保持增产"
-          },
-          {
-            "n": 6,
-            "title": "菲律宾南部发生7.9级强震 19人死亡"
-          }
-        ]
-      }
-    ],
-    "mains": [
-      {
-        "n": 1,
-        "title": "习近平离京对朝鲜进行国事访问",
-        "type": "main",
-        "region": "international",
-        "children": []
-      },
-      {
-        "n": 2,
-        "title": "习近平抵达平壤开始对朝鲜进行国事访问",
-        "type": "main",
-        "region": "international",
-        "children": []
-      },
-      {
-        "n": 3,
-        "title": "习近平出席金正恩举行的欢迎仪式",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 4,
-        "title": "习近平同金正恩举行会谈",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 5,
-        "title": "习近平在朝鲜媒体发表署名文章",
-        "type": "main",
-        "region": "international",
-        "children": []
-      },
-      {
-        "n": 6,
-        "title": "丁薛祥出席三峡水运新通道工程开工仪式",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 7,
-        "title": "国务院印发《现代化应急体系建设“十五五”规划》",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 8,
-        "title": "我国海洋生态状况稳中向好",
-        "type": "main",
-        "region": "international",
-        "children": []
-      }
-    ],
-    "flashes": [
-      {
-        "n": 9,
-        "title": "联播快讯",
-        "type": "flash",
-        "region": "domestic",
-        "children": [
-          {
-            "n": 1,
-            "title": "我国出台实施方案推进行业高质量数据集建设"
-          },
-          {
-            "n": 2,
-            "title": "国家网信办 市场监管总局联合印发《网络测评活动规范》"
-          },
-          {
-            "n": 3,
-            "title": "新版《药物临床试验质量管理规范》发布 9月起实施"
-          },
-          {
-            "n": 4,
-            "title": "伊朗和以色列互相发动新打击行动"
-          },
-          {
-            "n": 5,
-            "title": "主要产油国宣布7月继续保持增产"
-          },
-          {
-            "n": 6,
-            "title": "菲律宾南部发生7.9级强震 19人死亡"
-          }
-        ]
-      }
-    ],
-    "pointCount": 15,
-    "videoUrl": "https://tv.cctv.com/2026/06/08/VIDExbWHS6j4fh6DMBMyX8ll260608.shtml",
-    "cover": "https://p5.img.cctvpic.com/fmspic/2026/06/08/fd7edff7cd7748aa9626184c02ca43bb-1.jpg",
-    "duration": "00:29:59",
-    "sourceTime": "2026-06-08 21:00:00"
   }
 ]

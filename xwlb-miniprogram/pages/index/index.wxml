@@ -5,6 +5,7 @@
       <text wx:if="{{relative}}">{{relative}}</text>
       <text>{{view.weekday}}</text>
       <text>{{view.pointCount}} 条要点</text>
+      <text wx:if="{{stale}}" class="stale-flag">存档</text>
     </view>
   </view>
 

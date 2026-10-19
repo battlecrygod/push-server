@@ -30,6 +30,14 @@
       <view class="panel__label">最新一期</view>
       <view class="panel__value">{{latestDate || '—'}}</view>
     </view>
+    <view class="panel__row panel__row--action" bindtap="onTestSource">
+      <view class="panel__label">检测数据源连接</view>
+      <view class="panel__value panel__value--arrow">{{testing ? '检测中…' : '›'}}</view>
+    </view>
+    <view
+      class="test-result {{testOk ? 'test-result--ok' : 'test-result--bad'}}"
+      wx:if="{{testResult}}"
+    >{{testResult}}</view>
     <view class="panel__row panel__row--action" bindtap="onClearCache">
       <view class="panel__label">清除本地缓存</view>
       <view class="panel__value panel__value--arrow">›</view>

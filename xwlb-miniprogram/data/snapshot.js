@@ -5,6 +5,349 @@
  */
 module.exports = [
   {
+    "date": "2026-10-18",
+    "displayDate": "10月18日",
+    "weekday": "周日",
+    "items": [
+      {
+        "n": 1,
+        "title": "【新思想引领新征程】绘就幸福“夕阳红” 持续增进民生福祉",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 2,
+        "title": "李强同乌兹别克斯坦总理会谈",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 3,
+        "title": "李强会见乌兹别克斯坦总统",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 4,
+        "title": "李强赴杜尚别对塔吉克斯坦进行正式访问并出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 5,
+        "title": "【赓续长征精神 奋进复兴征程】甘肃：长征足迹印沃土 红色陇原谱新篇",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 6,
+        "title": "我国已开通104项全国性跨地区社保服务",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 7,
+        "title": "城镇供热“温暖工程”三年行动启动",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 8,
+        "title": "全国铁路列车车次编排改革启动",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 9,
+        "title": "我国首次太空培育两代水稻取得新突破",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 10,
+        "title": "第五届亚残运会今天开幕",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 11,
+        "title": "国内联播快讯",
+        "type": "flash",
+        "region": "domestic",
+        "children": [
+          {
+            "n": 1,
+            "title": "今年1.3万亿元超长期特别国债发行完毕"
+          },
+          {
+            "n": 2,
+            "title": "第四届“良渚论坛”在浙江杭州开幕"
+          },
+          {
+            "n": 3,
+            "title": "前三季度深圳对APEC经济体进出口同比增长40%"
+          },
+          {
+            "n": 4,
+            "title": "中国农业发展银行2000亿元信贷资金专项用于秋粮收购"
+          },
+          {
+            "n": 5,
+            "title": "市场监管总局发布15项氢能国家标准"
+          },
+          {
+            "n": 6,
+            "title": "前三季度全国铁路发送旅客37.1亿人次"
+          },
+          {
+            "n": 7,
+            "title": "我国确定“十五五”适宜增殖放流水生物种345种"
+          },
+          {
+            "n": 8,
+            "title": "中韩海上执法部门圆满完成联合巡航"
+          },
+          {
+            "n": 9,
+            "title": "第二十五届中国上海国际艺术节开幕"
+          },
+          {
+            "n": 10,
+            "title": "2026长三角国际青年电影周开幕"
+          },
+          {
+            "n": 11,
+            "title": "2026国际武当太极文化节开幕"
+          }
+        ]
+      },
+      {
+        "n": 12,
+        "title": "也门胡塞武装称击落沙特武装直升机 沙特主导联军称拦截多架无人机",
+        "type": "main",
+        "region": "international",
+        "children": []
+      },
+      {
+        "n": 13,
+        "title": "国际联播快讯",
+        "type": "flash",
+        "region": "international",
+        "children": [
+          {
+            "n": 1,
+            "title": "俄称击落上千架无人机 乌称变电站遭袭"
+          },
+          {
+            "n": 2,
+            "title": "欧洲外交人员遭犹太定居者袭击"
+          },
+          {
+            "n": 3,
+            "title": "加拿大一军事基地发生火灾"
+          },
+          {
+            "n": 4,
+            "title": "美加州南部多处林火持续燃烧"
+          },
+          {
+            "n": 5,
+            "title": "肯尼亚新增4例埃博拉确诊病例"
+          }
+        ]
+      },
+      {
+        "n": 14,
+        "title": "中国传统节日·重阳",
+        "type": "main",
+        "region": "international",
+        "children": []
+      }
+    ],
+    "mains": [
+      {
+        "n": 1,
+        "title": "【新思想引领新征程】绘就幸福“夕阳红” 持续增进民生福祉",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 2,
+        "title": "李强同乌兹别克斯坦总理会谈",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 3,
+        "title": "李强会见乌兹别克斯坦总统",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 4,
+        "title": "李强赴杜尚别对塔吉克斯坦进行正式访问并出席上海合作组织成员国政府首脑（总理）理事会第二十五次会议",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 5,
+        "title": "【赓续长征精神 奋进复兴征程】甘肃：长征足迹印沃土 红色陇原谱新篇",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 6,
+        "title": "我国已开通104项全国性跨地区社保服务",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 7,
+        "title": "城镇供热“温暖工程”三年行动启动",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 8,
+        "title": "全国铁路列车车次编排改革启动",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 9,
+        "title": "我国首次太空培育两代水稻取得新突破",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 10,
+        "title": "第五届亚残运会今天开幕",
+        "type": "main",
+        "region": "domestic",
+        "children": []
+      },
+      {
+        "n": 12,
+        "title": "也门胡塞武装称击落沙特武装直升机 沙特主导联军称拦截多架无人机",
+        "type": "main",
+        "region": "international",
+        "children": []
+      },
+      {
+        "n": 14,
+        "title": "中国传统节日·重阳",
+        "type": "main",
+        "region": "international",
+        "children": []
+      }
+    ],
+    "flashes": [
+      {
+        "n": 11,
+        "title": "国内联播快讯",
+        "type": "flash",
+        "region": "domestic",
+        "children": [
+          {
+            "n": 1,
+            "title": "今年1.3万亿元超长期特别国债发行完毕"
+          },
+          {
+            "n": 2,
+            "title": "第四届“良渚论坛”在浙江杭州开幕"
+          },
+          {
+            "n": 3,
+            "title": "前三季度深圳对APEC经济体进出口同比增长40%"
+          },
+          {
+            "n": 4,
+            "title": "中国农业发展银行2000亿元信贷资金专项用于秋粮收购"
+          },
+          {
+            "n": 5,
+            "title": "市场监管总局发布15项氢能国家标准"
+          },
+          {
+            "n": 6,
+            "title": "前三季度全国铁路发送旅客37.1亿人次"
+          },
+          {
+            "n": 7,
+            "title": "我国确定“十五五”适宜增殖放流水生物种345种"
+          },
+          {
+            "n": 8,
+            "title": "中韩海上执法部门圆满完成联合巡航"
+          },
+          {
+            "n": 9,
+            "title": "第二十五届中国上海国际艺术节开幕"
+          },
+          {
+            "n": 10,
+            "title": "2026长三角国际青年电影周开幕"
+          },
+          {
+            "n": 11,
+            "title": "2026国际武当太极文化节开幕"
+          }
+        ]
+      },
+      {
+        "n": 13,
+        "title": "国际联播快讯",
+        "type": "flash",
+        "region": "international",
+        "children": [
+          {
+            "n": 1,
+            "title": "俄称击落上千架无人机 乌称变电站遭袭"
+          },
+          {
+            "n": 2,
+            "title": "欧洲外交人员遭犹太定居者袭击"
+          },
+          {
+            "n": 3,
+            "title": "加拿大一军事基地发生火灾"
+          },
+          {
+            "n": 4,
+            "title": "美加州南部多处林火持续燃烧"
+          },
+          {
+            "n": 5,
+            "title": "肯尼亚新增4例埃博拉确诊病例"
+          }
+        ]
+      }
+    ],
+    "pointCount": 30,
+    "videoUrl": "https://tv.cctv.com/2026/10/18/VIDEuzkY11vFBQfFQoYDYWL0261018.shtml",
+    "cover": "https://p2.img.cctvpic.com/fmspic/2026/10/18/ad96f85895454e5183559f4a68e0da8e-1.jpg",
+    "duration": "00:29:59"
+  },
+  {
     "date": "2026-10-17",
     "displayDate": "10月17日",
     "weekday": "周六",
@@ -2648,338 +2991,5 @@ module.exports = [
     "videoUrl": "https://tv.cctv.com/2026/10/09/VIDEAlKAfObecLzOwEUSEWD9261009.shtml",
     "cover": "https://p3.img.cctvpic.com/fmspic/2026/10/09/5750c8343ab442db9fdbed656d516a36-1.jpg",
     "duration": "00:30:00"
-  },
-  {
-    "date": "2026-10-08",
-    "displayDate": "10月8日",
-    "weekday": "周四",
-    "items": [
-      {
-        "n": 1,
-        "title": "【新思想引领新征程】以人的需求为原点 激活消费大市场",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 2,
-        "title": "【赓续长征精神 奋进复兴征程】广西：桂北大地传薪火 向海图强启新程",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 3,
-        "title": "“伟大的远征”主题展览国庆期间接待观众21万人次",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 4,
-        "title": "中国人民银行今天发布关于人民币汇率的政策立场",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 5,
-        "title": "国庆假期全社会跨区域人员流动量日均超3亿人次",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 6,
-        "title": "国庆假期高速公路新能源汽车日均充电量同比增长51.42%",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 7,
-        "title": "我国实施医疗康复护理扩容提升工程",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 8,
-        "title": "我国具身智能产业化加速落地",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 9,
-        "title": "我国加快建立全链条循环经济体系",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 10,
-        "title": "长春2027第33届世界大学生冬季运动会倒计时100天系列活动举行",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 11,
-        "title": "国内联播快讯",
-        "type": "flash",
-        "region": "domestic",
-        "children": [
-          {
-            "n": 1,
-            "title": "国庆假期全国安全形势总体平稳"
-          },
-          {
-            "n": 2,
-            "title": "国庆假期出入境人员达1546.2万人次"
-          },
-          {
-            "n": 3,
-            "title": "财政部今天发行1500亿元中央金融机构注资特别国债"
-          },
-          {
-            "n": 4,
-            "title": "中国科学院10万件专利成果与央企应用场景双向赋能"
-          },
-          {
-            "n": 5,
-            "title": "前三季度全国农业信贷担保体系新增融资担保额超2000亿元"
-          },
-          {
-            "n": 6,
-            "title": "我国科研团队研制出“核光钟” 实现量子精密测量新突破"
-          },
-          {
-            "n": 7,
-            "title": "田湾核电7号机组完成首次并网发电"
-          },
-          {
-            "n": 8,
-            "title": "新疆独库公路今起实施冬季封闭"
-          },
-          {
-            "n": 9,
-            "title": "全球首个ISO人工冰雪景观技术委员会秘书处承担单位落户哈尔滨"
-          }
-        ]
-      },
-      {
-        "n": 12,
-        "title": "沙特称摧毁也门胡塞武装82处军事目标 胡塞武装称打击亚丁机场附近沙特目标",
-        "type": "main",
-        "region": "international",
-        "children": []
-      },
-      {
-        "n": 13,
-        "title": "美媒称美国防部下令为重启对伊朗行动做好准备 伊朗称将关闭霍尔木兹海峡“非法航道”",
-        "type": "main",
-        "region": "international",
-        "children": []
-      },
-      {
-        "n": 14,
-        "title": "国际联播快讯",
-        "type": "flash",
-        "region": "international",
-        "children": [
-          {
-            "n": 1,
-            "title": "俄称对多地乌军工企业发动打击"
-          },
-          {
-            "n": 2,
-            "title": "以色列称关闭英国驻耶路撒冷领事馆"
-          },
-          {
-            "n": 3,
-            "title": "国际货币基金组织称高油价将持续至明年"
-          },
-          {
-            "n": 4,
-            "title": "世界气象组织称厄尔尼诺正在增强"
-          }
-        ]
-      },
-      {
-        "n": 15,
-        "title": "二十四节气·寒露",
-        "type": "main",
-        "region": "international",
-        "children": []
-      }
-    ],
-    "mains": [
-      {
-        "n": 1,
-        "title": "【新思想引领新征程】以人的需求为原点 激活消费大市场",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 2,
-        "title": "【赓续长征精神 奋进复兴征程】广西：桂北大地传薪火 向海图强启新程",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 3,
-        "title": "“伟大的远征”主题展览国庆期间接待观众21万人次",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 4,
-        "title": "中国人民银行今天发布关于人民币汇率的政策立场",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 5,
-        "title": "国庆假期全社会跨区域人员流动量日均超3亿人次",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 6,
-        "title": "国庆假期高速公路新能源汽车日均充电量同比增长51.42%",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 7,
-        "title": "我国实施医疗康复护理扩容提升工程",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 8,
-        "title": "我国具身智能产业化加速落地",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 9,
-        "title": "我国加快建立全链条循环经济体系",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 10,
-        "title": "长春2027第33届世界大学生冬季运动会倒计时100天系列活动举行",
-        "type": "main",
-        "region": "domestic",
-        "children": []
-      },
-      {
-        "n": 12,
-        "title": "沙特称摧毁也门胡塞武装82处军事目标 胡塞武装称打击亚丁机场附近沙特目标",
-        "type": "main",
-        "region": "international",
-        "children": []
-      },
-      {
-        "n": 13,
-        "title": "美媒称美国防部下令为重启对伊朗行动做好准备 伊朗称将关闭霍尔木兹海峡“非法航道”",
-        "type": "main",
-        "region": "international",
-        "children": []
-      },
-      {
-        "n": 15,
-        "title": "二十四节气·寒露",
-        "type": "main",
-        "region": "international",
-        "children": []
-      }
-    ],
-    "flashes": [
-      {
-        "n": 11,
-        "title": "国内联播快讯",
-        "type": "flash",
-        "region": "domestic",
-        "children": [
-          {
-            "n": 1,
-            "title": "国庆假期全国安全形势总体平稳"
-          },
-          {
-            "n": 2,
-            "title": "国庆假期出入境人员达1546.2万人次"
-          },
-          {
-            "n": 3,
-            "title": "财政部今天发行1500亿元中央金融机构注资特别国债"
-          },
-          {
-            "n": 4,
-            "title": "中国科学院10万件专利成果与央企应用场景双向赋能"
-          },
-          {
-            "n": 5,
-            "title": "前三季度全国农业信贷担保体系新增融资担保额超2000亿元"
-          },
-          {
-            "n": 6,
-            "title": "我国科研团队研制出“核光钟” 实现量子精密测量新突破"
-          },
-          {
-            "n": 7,
-            "title": "田湾核电7号机组完成首次并网发电"
-          },
-          {
-            "n": 8,
-            "title": "新疆独库公路今起实施冬季封闭"
-          },
-          {
-            "n": 9,
-            "title": "全球首个ISO人工冰雪景观技术委员会秘书处承担单位落户哈尔滨"
-          }
-        ]
-      },
-      {
-        "n": 14,
-        "title": "国际联播快讯",
-        "type": "flash",
-        "region": "international",
-        "children": [
-          {
-            "n": 1,
-            "title": "俄称对多地乌军工企业发动打击"
-          },
-          {
-            "n": 2,
-            "title": "以色列称关闭英国驻耶路撒冷领事馆"
-          },
-          {
-            "n": 3,
-            "title": "国际货币基金组织称高油价将持续至明年"
-          },
-          {
-            "n": 4,
-            "title": "世界气象组织称厄尔尼诺正在增强"
-          }
-        ]
-      }
-    ],
-    "pointCount": 28,
-    "videoUrl": "https://tv.cctv.com/2026/10/08/VIDEPzC4oT7SjkpePEggzEoc261008.shtml",
-    "cover": "https://p2.img.cctvpic.com/fmspic/2026/10/08/26232d31c592415d85454cf472e27043-1.jpg",
-    "duration": "00:29:59"
   }
 ];

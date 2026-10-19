@@ -67,6 +67,24 @@
   background: #fafbfc;
 }
 
+.test-result {
+  margin: 4rpx 0 12rpx;
+  padding: 16rpx 18rpx;
+  border-radius: 12rpx;
+  font-size: 22rpx;
+  line-height: 1.65;
+}
+
+.test-result--ok {
+  color: #1a7f4b;
+  background: #eaf7ef;
+}
+
+.test-result--bad {
+  color: #b3261e;
+  background: #fdecea;
+}
+
 .about {
   padding: 8rpx 8rpx 0;
 }

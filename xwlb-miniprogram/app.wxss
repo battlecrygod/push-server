@@ -45,6 +45,15 @@ scroll-view {
   color: #c9ced6;
 }
 
+/* 数据为本地存档时的标记 */
+.stale-flag {
+  color: #b45309 !important;
+  background: #fef3c7;
+  padding: 2rpx 10rpx;
+  border-radius: 6rpx;
+  font-size: 20rpx;
+}
+
 /* 摘要卡 */
 .digest {
   position: relative;

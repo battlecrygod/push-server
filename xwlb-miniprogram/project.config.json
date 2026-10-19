@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./",
   "compileType": "miniprogram",
-  "appid": "touristappid",
+  "appid": "wx5dc35a44adf69cd2",
   "projectname": "xwlb-daily",
   "description": "每日新闻联播要点速览",
   "setting": {
