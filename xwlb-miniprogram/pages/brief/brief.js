@@ -62,14 +62,26 @@ Page({
         this.setData({ state: 'ok', paragraphs: res.paragraphs });
       })
       .catch((err) => {
-        const code = err && err.message;
-        if (code === 'NO_URL') {
+        const code = (err && err.message) || '';
+        const raw = (err && err.raw) || '';
+        const detail = `${code} ${raw}`;
+
+        if (code === 'NO_URL' || code === 'NO_CONTENT') {
           this.setData({ state: 'nourl' });
-        } else if (code === 'NO_CONTENT') {
-          this.setData({ state: 'nourl' });
-        } else {
-          this.setData({ state: 'error', errorText: '正文加载失败，检查网络后重试' });
+          return;
         }
+        if (/domain list/i.test(detail)) {
+          this.setData({
+            state: 'error',
+            errorText: '域名未配置：需要在小程序后台把 tv.cctv.com 加进 request 合法域名'
+          });
+          return;
+        }
+        if (/timeout/i.test(detail)) {
+          this.setData({ state: 'error', errorText: '请求超时，网络不稳定，稍后再试' });
+          return;
+        }
+        this.setData({ state: 'error', errorText: `加载失败：${code || '未知错误'}` });
       });
   },
 

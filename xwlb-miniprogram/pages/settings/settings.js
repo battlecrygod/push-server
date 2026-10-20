@@ -12,7 +12,7 @@ Page({
     latestDate: '',
     version: '1.0.1',
     testing: false,
-    testResult: '',
+    testRows: [],
     testOk: false
   },
 
@@ -52,54 +52,80 @@ Page({
   },
 
   /**
-   * 检测数据源是否连通。
-   * 最常见的失败原因是 api.cntv.cn 没加进小程序的 request 合法域名——
-   * 这种情况下首页会一直显示内置存档，看起来像「不更新」。
+   * 检测两个必需的域名是否都能连通。
+   * 首页显示旧内容 = 节目清单域名不通；正文加载失败 = 正文域名不通。
+   * 真机上最常见的原因是没配进 request 合法域名。
    */
   onTestSource() {
     if (this.data.testing) return;
-    this.setData({ testing: true, testResult: '', testOk: false });
+    this.setData({ testing: true, testRows: [] });
 
-    wx.request({
-      url:
-        'https://api.cntv.cn/NewVideo/getVideoListByColumn?id=TOPC1451528971114112&n=2&sort=desc&p=1&mode=0&serviceId=tvcctv',
-      timeout: 10000,
-      success: (res) => {
-        if (res.statusCode !== 200) {
-          this.setData({
-            testing: false,
-            testOk: false,
-            testResult: `源站返回 HTTP ${res.statusCode}`
-          });
-          return;
-        }
-        const list = (res.data && res.data.data && res.data.data.list) || [];
-        const latest = list[0] ? String(list[0].time).slice(0, 10) : '';
-        if (!latest) {
-          this.setData({
-            testing: false,
-            testOk: false,
-            testResult: '连接成功，但没有解析到内容'
-          });
-          return;
-        }
-        this.setData({
-          testing: false,
-          testOk: true,
-          testResult: `连接正常，源站最新一期是 ${latest}`
-        });
+    const editions = app.globalData.editions || [];
+    const firstItem = editions[0] && editions[0].mains && editions[0].mains[0];
+    const videoUrl =
+      (firstItem && firstItem.videoUrl) ||
+      'https://tv.cctv.com/2026/10/18/VIDEIswMFtT0ODGVWFJ2DDVb261018.shtml';
+
+    const targets = [
+      {
+        name: '节目清单 api.cntv.cn',
+        url:
+          'https://api.cntv.cn/NewVideo/getVideoListByColumn?id=TOPC1451528971114112&n=2&sort=desc&p=1&mode=0&serviceId=tvcctv',
+        expect: 'list'
       },
-      fail: (err) => {
-        const msg = (err && err.errMsg) || '未知错误';
-        let detail = msg;
-        if (/domain list/i.test(msg)) {
-          detail =
-            '域名未加入白名单。去小程序后台「开发管理 → 开发设置 → 服务器域名」，把 https://api.cntv.cn 加到 request 合法域名';
-        } else if (/timeout/i.test(msg)) {
-          detail = '请求超时，检查一下网络';
+      { name: '新闻正文 tv.cctv.com', url: videoUrl, expect: 'html' }
+    ];
+
+    const runs = targets.map((t) => this.probe(t));
+
+    Promise.all(runs).then((rows) => {
+      this.setData({
+        testing: false,
+        testRows: rows,
+        testOk: rows.every((r) => r.ok)
+      });
+    });
+  },
+
+  probe(target) {
+    return new Promise((resolve) => {
+      wx.request({
+        url: target.url,
+        timeout: 10000,
+        dataType: target.expect === 'html' ? 'text' : 'json',
+        success: (res) => {
+          if (res.statusCode !== 200) {
+            resolve({ name: target.name, ok: false, detail: `源站返回 HTTP ${res.statusCode}` });
+            return;
+          }
+          if (target.expect === 'list') {
+            const list = (res.data && res.data.data && res.data.data.list) || [];
+            if (!list.length) {
+              resolve({ name: target.name, ok: false, detail: '连通了，但没取到内容' });
+              return;
+            }
+            const latest = String(list[0].time || '').slice(0, 10);
+            resolve({ name: target.name, ok: true, detail: `正常，源站最新 ${latest}` });
+            return;
+          }
+          const html = String(res.data || '');
+          resolve({
+            name: target.name,
+            ok: html.indexOf('content_area') > -1,
+            detail: html.indexOf('content_area') > -1 ? '正常，能取到正文' : '页面结构和预期不符'
+          });
+        },
+        fail: (err) => {
+          const msg = (err && err.errMsg) || '未知错误';
+          let detail = msg;
+          if (/domain list/i.test(msg)) {
+            detail = `域名未加入白名单：把 ${target.url.split('/')[2]} 加到 request 合法域名`;
+          } else if (/timeout/i.test(msg)) {
+            detail = '请求超时';
+          }
+          resolve({ name: target.name, ok: false, detail });
         }
-        this.setData({ testing: false, testOk: false, testResult: detail });
-      }
+      });
     });
   },
 

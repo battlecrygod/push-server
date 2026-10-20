@@ -101,7 +101,10 @@ function requestHtml(url) {
         resolve(String(res.data || ''));
       },
       fail(err) {
-        reject(new Error(err.errMsg || '网络请求失败'));
+        const message = (err && err.errMsg) || '网络请求失败';
+        const error = new Error(message);
+        error.raw = message;
+        reject(error);
       }
     });
   });
